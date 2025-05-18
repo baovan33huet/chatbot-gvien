@@ -1,0 +1,2679 @@
+Entities:
+- 'hàm số bậc hai': 'hàm số'
+- 'tham số a': 'hệ số'
+- 'tham số b': 'hệ số'
+- 'tham số c': 'hệ số'
+- 'delta': 'biểu thức'
+- 'tọa độ đỉnh': 'tọa độ'
+- 'trục đối xứng': 'đường thẳng'
+- 'parabol': 'đồ thị'
+- 'fanpage': 'trang mạng'
+- 'Nguyễn Bảo Vương': 'tên riêng'
+- 'giao điểm với trục tung': 'điểm'
+- 'giao điểm với trục hoành': 'điểm'
+- 'điểm đối xứng': 'điểm'
+
+Relationships:
+- ('hàm số bậc hai', 'có hệ số', 'tham số a')
+- ('hàm số bậc hai', 'có hệ số', 'tham số b')
+- ('hàm số bậc hai', 'có hệ số', 'tham số c')
+- ('hàm số bậc hai', 'có biểu thức', 'delta')
+- ('hàm số bậc hai', 'có đồ thị', 'parabol')
+- ('parabol', 'có tọa độ', 'tọa độ đỉnh')
+- ('parabol', 'có đường thẳng', 'trục đối xứng')
+- ('parabol', 'có điểm', 'giao điểm với trục tung')
+- ('parabol', 'có điểm', 'giao điểm với trục hoành')
+- ('parabol', 'có điểm', 'điểm đối xứng')
+- ('fanpage', 'thuộc về', 'Nguyễn Bảo Vương')
+---
+Entities:
+- 'hàm số bậc hai': 'hàm số'
+- 'tham số a': 'hệ số'
+- 'tham số b': 'hệ số'
+- 'tham số c': 'hệ số'
+- 'khoảng đồng biến': 'khoảng'
+- 'khoảng nghịch biến': 'khoảng'
+- '(-\infty; -\frac{b}{2a})': 'khoảng'
+- '(-\frac{b}{2a}; +\infty)': 'khoảng'
+- '(-\infty; \frac{3}{4})': 'khoảng'
+- '(\frac{3}{4}; +\infty)': 'khoảng'
+- '(-\infty; -\frac{5}{6})': 'khoảng'
+- '(-\frac{5}{6}; +\infty)': 'khoảng'
+- 'quỹ đạo của quả bóng': 'quỹ đạo'
+- 'thời gian t': 'biến'
+- 'độ cao h': 'biến'
+- 'độ cao tối đa': 'kết quả'
+- '8m': 'giá trị'
+- '2s': 'giá trị'
+- 'mặt phẳng tọa độ OXH': 'mặt phẳng'
+- 'Nguyễn Bảo Vương': 'tác giả'
+- 'https://www.nbv.edu.vn/': 'website'
+- 'https://www.facebook.com/tracnghiemtoanthpt489/': 'fanpage'
+
+Relationships:
+- ('hàm số bậc hai', 'có hệ số', 'tham số a')
+- ('hàm số bậc hai', 'có hệ số', 'tham số b')
+- ('hàm số bậc hai', 'có hệ số', 'tham số c')
+- ('hàm số bậc hai', 'nghịch biến trên', '(-\infty; -\frac{b}{2a})')
+- ('hàm số bậc hai', 'đồng biến trên', '(-\frac{b}{2a}; +\infty)')
+- ('hàm số bậc hai', 'đồng biến trên', '(-\infty; \frac{3}{4})')
+- ('hàm số bậc hai', 'nghịch biến trên', '(\frac{3}{4}; +\infty)')
+- ('hàm số bậc hai', 'nghịch biến trên', '(-\infty; -\frac{5}{6})')
+- ('hàm số bậc hai', 'đồng biến trên', '(-\frac{5}{6}; +\infty)')
+- ('quỹ đạo của quả bóng', 'được minh họa trong', 'mặt phẳng tọa độ OXH')
+- ('quỹ đạo của quả bóng', 'liên quan đến', 'thời gian t')
+- ('quỹ đạo của quả bóng', 'liên quan đến', 'độ cao h')
+- ('quỹ đạo của quả bóng', 'đạt', 'độ cao tối đa')
+- ('độ cao tối đa', 'là', '8m')
+- ('thời gian t', 'sau', '2s')
+- ('Nguyễn Bảo Vương', 'có', 'website')
+- ('Nguyễn Bảo Vương', 'có', 'fanpage')
+---
+Entities:
+- 'hàm số bậc hai': 'hàm số'
+- 'độ cao \( h \)': 'biến số'
+- 'thời gian \( t \)': 'biến số'
+- 'hệ số a': 'hệ số'
+- 'hệ số b': 'hệ số'
+- 'hệ số c': 'hệ số'
+- 'điều kiện \( a < 0 \)': 'điều kiện'
+- 'điều kiện \( f(0) = c \)': 'điều kiện'
+- 'điều kiện \( f(2) = 8 \)': 'điều kiện'
+- 'điều kiện \( -\frac{b}{2a} = 2 \)': 'điều kiện'
+- 'phương trình \( f(t) = -2t^2 + 8t \)': 'phương trình'
+- 'độ cao sau 3s': 'kết quả'
+- 'thời điểm chạm đất': 'kết quả'
+- 'quỹ đạo parabol': 'quỹ đạo'
+- 'trục đối xứng \( t = 2 \)': 'trục đối xứng'
+- 'điểm xuất phát': 'điểm'
+- 'điểm chạm đất': 'điểm'
+- 'đồ thị hàm số': 'đồ thị'
+- 'facebook nguyễn vương': 'người'
+- 'https://www.facebook.com/phong.baovuong': 'liên kết'
+- 'trang 3': 'trang'
+
+Relationships:
+- ('hàm số bậc hai', 'biểu thị', 'độ cao \( h \)')
+- ('hàm số bậc hai', 'biểu thị', 'thời gian \( t \)')
+- ('hàm số bậc hai', 'có hệ số', 'hệ số a')
+- ('hàm số bậc hai', 'có hệ số', 'hệ số b')
+- ('hàm số bậc hai', 'có hệ số', 'hệ số c')
+- ('hàm số bậc hai', 'thỏa mãn', 'điều kiện \( a < 0 \)')
+- ('hàm số bậc hai', 'thỏa mãn', 'điều kiện \( f(0) = c \)')
+- ('hàm số bậc hai', 'thỏa mãn', 'điều kiện \( f(2) = 8 \)')
+- ('hàm số bậc hai', 'thỏa mãn', 'điều kiện \( -\frac{b}{2a} = 2 \)')
+- ('phương trình \( f(t) = -2t^2 + 8t \)', 'tính được', 'độ cao sau 3s')
+- ('phương trình \( f(t) = -2t^2 + 8t \)', 'xác định', 'thời điểm chạm đất')
+- ('quỹ đạo parabol', 'có', 'trục đối xứng \( t = 2 \)')
+- ('điểm xuất phát', 'đối xứng với', 'điểm chạm đất')
+- ('đồ thị hàm số', 'thuộc về', 'hàm số bậc hai')
+- ('facebook nguyễn vương', 'liên kết với', 'https://www.facebook.com/phong.baovuong')
+- ('trang 3', 'chứa', 'nội dung')
+---
+Entities:
+- 'hàm số bậc hai': 'hàm số'
+- 'parabol': 'đồ thị'
+- 'đỉnh': 'tính chất'
+- 'trục đối xứng': 'tính chất'
+- 'đồ thị': 'đồ thị'
+- 'bài toán thực tiễn': 'bài toán'
+- 'cầu': 'đối tượng'
+- 'cổng': 'đối tượng'
+- 'năng lực tự chủ và tự học': 'năng lực'
+- 'năng lực giao tiếp và hợp tác': 'năng lực'
+- 'năng lực giải quyết vấn đề và sáng tạo': 'năng lực'
+- 'năng lực mô hình hóa toán học': 'năng lực'
+- 'năng lực giải quyết vấn đề toán học': 'năng lực'
+- 'công cụ, phương tiện học toán': 'công cụ'
+- 'bảng giá trị': 'công cụ'
+
+Relationships:
+- ('hàm số bậc hai', 'có đồ thị', 'parabol')
+- ('parabol', 'có tính chất', 'đỉnh')
+- ('parabol', 'có tính chất', 'trục đối xứng')
+- ('hàm số bậc hai', 'được áp dụng trong', 'bài toán thực tiễn')
+- ('bài toán thực tiễn', 'liên quan đến', 'cầu')
+- ('bài toán thực tiễn', 'liên quan đến', 'cổng')
+- ('học sinh', 'phát triển', 'năng lực tự chủ và tự học')
+- ('học sinh', 'phát triển', 'năng lực giao tiếp và hợp tác')
+- ('học sinh', 'phát triển', 'năng lực giải quyết vấn đề và sáng tạo')
+- ('học sinh', 'phát triển', 'năng lực mô hình hóa toán học')
+- ('học sinh', 'phát triển', 'năng lực giải quyết vấn đề toán học')
+- ('học sinh', 'sử dụng', 'công cụ, phương tiện học toán')
+- ('học sinh', 'sử dụng', 'bảng giá trị')
+---
+Entities:
+- 'Phẩm chất': 'Khái niệm'
+- 'Ý thức học tập': 'Phẩm chất'
+- 'Ý thức tìm tòi': 'Phẩm chất'
+- 'Ý thức khám phá': 'Phẩm chất'
+- 'Ý thức sáng tạo': 'Phẩm chất'
+- 'Ý thức làm việc nhóm': 'Phẩm chất'
+- 'Trách nhiệm': 'Phẩm chất'
+- 'Chủ động chiếm lĩnh kiến thức': 'Phẩm chất'
+- 'Giáo viên (GV)': 'Người'
+- 'Học sinh (HS)': 'Người'
+- 'SGK': 'Tài liệu'
+- 'Tài liệu giảng dạy': 'Tài liệu'
+- 'Giáo án': 'Tài liệu'
+- 'Đồ dùng dạy học': 'Dụng cụ'
+- 'SBT': 'Tài liệu'
+- 'Vở ghi': 'Tài liệu'
+- 'Giấy nháp': 'Dụng cụ'
+- 'Đồ dùng học tập': 'Dụng cụ'
+- 'Bảng nhóm': 'Dụng cụ'
+- 'Bút viết bảng nhóm': 'Dụng cụ'
+- 'Hàm số bậc hai': 'Khái niệm'
+- 'Tình huống mở đầu': 'Hoạt động'
+- 'Câu hỏi mở đầu': 'Câu hỏi'
+
+Relationships:
+- ('Ý thức học tập', 'là một phần của', 'Phẩm chất')
+- ('Ý thức tìm tòi', 'là một phần của', 'Phẩm chất')
+- ('Ý thức khám phá', 'là một phần của', 'Phẩm chất')
+- ('Ý thức sáng tạo', 'là một phần của', 'Phẩm chất')
+- ('Ý thức làm việc nhóm', 'là một phần của', 'Phẩm chất')
+- ('Trách nhiệm', 'là một phần của', 'Phẩm chất')
+- ('Chủ động chiếm lĩnh kiến thức', 'là một phần của', 'Phẩm chất')
+- ('Giáo viên (GV)', 'sử dụng', 'SGK')
+- ('Giáo viên (GV)', 'sử dụng', 'Tài liệu giảng dạy')
+- ('Giáo viên (GV)', 'sử dụng', 'Giáo án')
+- ('Giáo viên (GV)', 'sử dụng', 'Đồ dùng dạy học')
+- ('Học sinh (HS)', 'sử dụng', 'SGK')
+- ('Học sinh (HS)', 'sử dụng', 'SBT')
+- ('Học sinh (HS)', 'sử dụng', 'Vở ghi')
+- ('Học sinh (HS)', 'sử dụng', 'Giấy nháp')
+- ('Học sinh (HS)', 'sử dụng', 'Đồ dùng học tập')
+- ('Học sinh (HS)', 'sử dụng', 'Bảng nhóm')
+- ('Học sinh (HS)', 'sử dụng', 'Bút viết bảng nhóm')
+- ('Học sinh (HS)', 'tham gia', 'Tình huống mở đầu')
+- ('Tình huống mở đầu', 'dẫn đến', 'Hàm số bậc hai')
+- ('Học sinh (HS)', 'trả lời', 'Câu hỏi mở đầu')
+---
+Entities:
+- 'bác Việt': 'Người'
+- 'tấm lưới': 'Vật thể'
+- 'khu vườn': 'Địa điểm'
+- 'mảnh đất': 'Địa điểm'
+- 'bờ tường': 'Vật thể'
+- 'diện tích lớn nhất': 'Kết quả'
+- 'hàm số bậc hai': 'Khái niệm'
+- 'bảng giá trị': 'Khái niệm'
+- 'x': 'Biến số'
+- '20 - 2x': 'Biểu thức'
+- 'x(20 - 2x)': 'Biểu thức'
+- 'gv': 'Người'
+- 'hs': 'Người'
+
+Relationships:
+- ('bác Việt', 'sở hữu', 'tấm lưới')
+- ('tấm lưới', 'dùng để', 'rào chắn')
+- ('khu vườn', 'có', 'bờ tường')
+- ('mảnh đất', 'nằm bên cạnh', 'bờ tường')
+- ('mảnh đất', 'được rào chắn bởi', 'tấm lưới')
+- ('mảnh đất', 'có', 'diện tích lớn nhất')
+- ('gv', 'hướng dẫn', 'hs')
+- ('hs', 'thảo luận', 'yêu cầu')
+- ('hàm số bậc hai', 'có', 'bảng giá trị')
+- ('bảng giá trị', 'liên quan đến', 'hàm số bậc hai')
+- ('x', 'là biến số của', 'hàm số bậc hai')
+- ('20 - 2x', 'là', 'biểu thức')
+- ('x(20 - 2x)', 'là', 'biểu thức')
+---
+Entities:
+- 'hàm số bậc hai': 'hàm số'
+- 'hs': 'học sinh'
+- 'gv': 'giáo viên'
+- 'công thức diện tích mảnh đất': 'công thức'
+- 'hàm số': 'khái niệm'
+- 'hệ số': 'thành phần'
+- 'biến số x': 'biến số'
+- 'hằng số a': 'hằng số'
+- 'hằng số b': 'hằng số'
+- 'hằng số c': 'hằng số'
+- 'tập xác định': 'tập hợp'
+- 'công thức toán học': 'công thức'
+- 'diện tích của mảnh đất': 'khái niệm'
+
+Relationships:
+- ('hs', 'thực hiện', 'nhiệm vụ')
+- ('hs', 'hình thành', 'kiến thức bài học')
+- ('hs', 'nhận biết', 'hệ số của hàm số bậc hai')
+- ('gv', 'yêu cầu', 'hs đọc nội dung hđ1')
+- ('gv', 'dẫn dắt vào', 'định nghĩa hàm số bậc hai')
+- ('hàm số bậc hai', 'được định nghĩa bởi', 'công thức diện tích mảnh đất')
+- ('hàm số bậc hai', 'có', 'hệ số')
+- ('hàm số bậc hai', 'có', 'biến số x')
+- ('hàm số bậc hai', 'có hằng số', 'hằng số a')
+- ('hàm số bậc hai', 'có hằng số', 'hằng số b')
+- ('hàm số bậc hai', 'có hằng số', 'hằng số c')
+- ('hàm số bậc hai', 'có tập xác định', 'tập xác định')
+- ('diện tích của mảnh đất', 'được tính bởi', 'công thức toán học')
+---
+Entities:
+- 'hàm số bậc hai': 'hàm số'
+- 'hệ số a': 'hệ số'
+- 'hệ số b': 'hệ số'
+- 'hệ số c': 'hệ số'
+- 'tập xác định': 'tập hợp'
+- 'tập số thực \(\mathbb{R}\)': 'tập hợp'
+- 'hàm số y = \(ax^2\)': 'hàm số'
+- 'hàm số y = \(ax^2 + bx + c\)': 'hàm số'
+- 'hàm số y = \(-3x^2 + 5x - 3\)': 'hàm số'
+- 'viên bi': 'vật thể'
+- 'chạm đất': 'sự kiện'
+- 'điều kiện \(h = 0\)': 'điều kiện'
+- 'phương trình \(19,6 - 4,9t^2 = 0\)': 'phương trình'
+- 'giá trị t = 2': 'kết quả'
+
+Relationships:
+- ('hàm số bậc hai', 'có hệ số', 'hệ số a')
+- ('hàm số bậc hai', 'có hệ số', 'hệ số b')
+- ('hàm số bậc hai', 'có hệ số', 'hệ số c')
+- ('hàm số bậc hai', 'có tập xác định', 'tập số thực \(\mathbb{R}\)')
+- ('hàm số y = \(ax^2\)', 'là trường hợp đặc biệt của', 'hàm số bậc hai')
+- ('hàm số y = \(-3x^2 + 5x - 3\)', 'là', 'hàm số bậc hai')
+- ('viên bi', 'khi', 'chạm đất')
+- ('chạm đất', 'khi', 'điều kiện \(h = 0\)')
+- ('điều kiện \(h = 0\)', 'tương đương', 'phương trình \(19,6 - 4,9t^2 = 0\)')
+- ('phương trình \(19,6 - 4,9t^2 = 0\)', 'có nghiệm', 'giá trị t = 2')
+---
+Entities:
+- 'gv': 'giáo viên'
+- 'hs': 'học sinh'
+- 'hàm số bậc hai': 'hàm số'
+- 'hệ số a': 'hệ số'
+- 'hệ số b': 'hệ số'
+- 'hệ số c': 'hệ số'
+- 'bảng giá trị': 'bảng'
+- 'công thức vật lí': 'công thức'
+- 'độ cao h': 'độ cao'
+- 'viên bi': 'vật thể'
+- 'độ cao ban đầu \( h_0 \)': 'độ cao'
+- 'gia tốc trọng trường \( g \)': 'gia tốc'
+- 'sgk': 'sách giáo khoa'
+- 'hoạt động cặp đôi': 'hoạt động'
+- 'đáp án': 'kết quả'
+- 'công thức latex': 'công thức'
+- 'tập giá trị': 'tập hợp'
+- 'tập xác định': 'tập hợp'
+
+Relationships:
+- ('gv', 'hướng dẫn', 'hs')
+- ('gv', 'củng cố', 'cách nhận biết')
+- ('gv', 'củng cố', 'cách xác định các hệ số a, b, c')
+- ('gv', 'củng cố', 'cách lập bảng giá trị')
+- ('gv', 'cho', 'hs thực hiện vận dụng 1')
+- ('hàm số bậc hai', 'có hệ số', 'hệ số a')
+- ('hàm số bậc hai', 'có hệ số', 'hệ số b')
+- ('hàm số bậc hai', 'có hệ số', 'hệ số c')
+- ('công thức vật lí', 'liên quan đến', 'độ cao h')
+- ('viên bi', 'chạm', 'đất')
+- ('hs', 'theo dõi', 'sgk')
+- ('hs', 'thực hiện', 'hoạt động cặp đôi')
+- ('hs', 'kiểm tra', 'đáp án')
+- ('hs', 'báo cáo', 'kết quả')
+- ('hs', 'thảo luận', 'kết quả')
+- ('công thức latex', 'định nghĩa', 'độ cao ban đầu \( h_0 \)')
+- ('công thức latex', 'định nghĩa', 'gia tốc trọng trường \( g \)')
+- ('hàm số bậc hai', 'có', 'tập giá trị')
+- ('hàm số bậc hai', 'có', 'tập xác định')
+---
+Entities:
+- 'hs': 'học sinh'
+- 'gv': 'giáo viên'
+- 'đồ thị của hàm số bậc hai': 'đồ thị'
+- 'hàm số bậc hai': 'hàm số'
+- 'đường parabol': 'đường cong'
+- 'đỉnh': 'yếu tố'
+- 'trục đối xứng': 'yếu tố'
+- 'sgk': 'sách giáo khoa'
+- 'kiến thức bài học': 'kiến thức'
+- 'khoảng đồng biến': 'khoảng'
+- 'khoảng nghịch biến': 'khoảng'
+- 'bảng giá trị': 'bảng'
+
+Relationships:
+- ('gv', 'tổng quát lưu ý', 'kiến thức trọng tâm')
+- ('gv', 'yêu cầu', 'hs')
+- ('hs', 'vẽ được', 'đồ thị của hàm số bậc hai')
+- ('hs', 'nhận biết', 'yếu tố cơ bản của đường parabol')
+- ('hs', 'nhận biết', 'tính chất của hàm số bậc hai')
+- ('hs', 'đọc', 'sgk')
+- ('hs', 'hình thành', 'kiến thức bài học')
+- ('hs', 'vẽ được', 'đồ thị hàm số')
+- ('hs', 'tìm', 'đỉnh')
+- ('hs', 'tìm', 'trục đối xứng')
+- ('hs', 'tìm', 'khoảng đồng biến')
+- ('hs', 'tìm', 'khoảng nghịch biến')
+- ('đồ thị của hàm số bậc hai', 'được phác thảo từ', 'bảng giá trị')
+---
+Entities:
+- 'hàm số y = ax² (a ≠ 0)': 'hàm số'
+- 'hàm số y = s(x) = -2x² + 20x': 'hàm số'
+- 'hàm số y = s(x) = -2x²': 'hàm số'
+- 'đồ thị': 'đồ thị'
+- 'parabol': 'đường cong'
+- 'trục đối xứng': 'trục'
+- 'trục oy': 'trục'
+- 'gốc tọa độ': 'điểm'
+- 'giá trị lớn nhất của y': 'giá trị'
+- 'tọa độ điểm cao nhất': 'tọa độ'
+- 'giá trị lớn nhất của diện tích mảnh đất': 'giá trị'
+- 'hai cột góc rào': 'vật thể'
+- 'bờ tường': 'vật thể'
+- '5 m': 'khoảng cách'
+
+Relationships:
+- ('hàm số y = ax² (a ≠ 0)', 'có đồ thị', 'đồ thị')
+- ('đồ thị', 'có dạng', 'parabol')
+- ('đồ thị', 'có trục đối xứng', 'trục oy')
+- ('đồ thị', 'đi qua', 'gốc tọa độ')
+- ('hàm số y = s(x) = -2x² + 20x', 'có đồ thị', 'đồ thị')
+- ('đồ thị', 'có giá trị lớn nhất của y', 'tọa độ điểm cao nhất')
+- ('giá trị lớn nhất của diện tích mảnh đất', 'tương ứng với', 'giá trị lớn nhất của y')
+- ('giá trị lớn nhất của diện tích mảnh đất', 'đạt được khi', 'hai cột góc rào cách bờ tường 5 m')
+---
+Entities:
+- 'đồ thị hàm số bậc hai': 'đồ thị'
+- 'hàm số bậc hai': 'hàm số'
+- 'parabol': 'đường cong'
+- 'đỉnh': 'điểm'
+- 'trục đối xứng': 'đường thẳng'
+- 'tọa độ đỉnh': 'tọa độ'
+- 'giao điểm với trục tung': 'điểm'
+- 'giao điểm với trục hoành': 'điểm'
+- 'bước vẽ parabol': 'quy trình'
+- 'tham số a': 'hệ số'
+- 'tham số b': 'hệ số'
+- 'tham số c': 'hệ số'
+
+Relationships:
+- ('đồ thị hàm số bậc hai', 'là', 'parabol')
+- ('parabol', 'có', 'đỉnh')
+- ('parabol', 'có', 'trục đối xứng')
+- ('đỉnh', 'có tọa độ', 'tọa độ đỉnh')
+- ('trục đối xứng', 'là', 'x = -b/2a')
+- ('bước vẽ parabol', 'bao gồm', 'xác định tọa độ đỉnh')
+- ('bước vẽ parabol', 'bao gồm', 'xác định trục đối xứng')
+- ('bước vẽ parabol', 'bao gồm', 'xác định giao điểm với trục tung')
+- ('bước vẽ parabol', 'bao gồm', 'xác định giao điểm với trục hoành')
+- ('bước vẽ parabol', 'bao gồm', 'vẽ parabol')
+- ('hàm số bậc hai', 'có hệ số', 'tham số a')
+- ('hàm số bậc hai', 'có hệ số', 'tham số b')
+- ('hàm số bậc hai', 'có hệ số', 'tham số c')
+---
+Entities:
+- 'hàm số bậc 2': 'hàm số'
+- 'đỉnh': 'tọa độ'
+- 'khoảng đồng biến': 'khoảng'
+- 'khoảng nghịch biến': 'khoảng'
+- 'giá trị nhỏ nhất': 'giá trị'
+- 'giá trị lớn nhất': 'giá trị'
+- 'đồ thị hàm số': 'đồ thị'
+- 'hàm số \( y = ax^2 + bx + c \)': 'hàm số'
+- 'hệ trục tọa độ oxy': 'hệ tọa độ'
+- 'chân trụ tháp': 'vị trí'
+- 'điểm (27; 0)': 'điểm'
+- 'điểm (2,26; 20)': 'điểm'
+- 'hệ phương trình': 'phương trình'
+
+Relationships:
+- ('hàm số bậc 2', 'có', 'đỉnh')
+- ('hàm số bậc 2', 'có', 'khoảng đồng biến')
+- ('hàm số bậc 2', 'có', 'khoảng nghịch biến')
+- ('hàm số bậc 2', 'có', 'giá trị nhỏ nhất')
+- ('hàm số bậc 2', 'có', 'giá trị lớn nhất')
+- ('đồ thị hàm số', 'được vẽ bởi', 'hàm số \( y = ax^2 + bx + c \)')
+- ('hàm số \( y = ax^2 + bx + c \)', 'được biểu diễn trên', 'hệ trục tọa độ oxy')
+- ('hệ trục tọa độ oxy', 'có', 'chân trụ tháp')
+- ('đồ thị hàm số', 'đi qua', 'điểm (27; 0)')
+- ('đồ thị hàm số', 'đi qua', 'điểm (2,26; 20)')
+- ('điểm (27; 0)', 'thuộc về', 'đồ thị hàm số')
+- ('điểm (2,26; 20)', 'thuộc về', 'đồ thị hàm số')
+- ('đồ thị hàm số', 'xác định', 'hệ phương trình')
+---
+Entities:
+- 'hàm số bậc hai': 'hàm số'
+- 'hệ số a': 'hệ số'
+- 'hệ số b': 'hệ số'
+- 'điểm (0; 0)': 'điểm'
+- 'điểm (27; 0)': 'điểm'
+- 'điểm (2,26; 20)': 'điểm'
+- 'hệ phương trình': 'phương trình'
+- 'tọa độ đỉnh của parabola': 'tọa độ'
+- 'độ cao của đỉnh trụ tháp cầu': 'kích thước'
+
+Relationships:
+- ('hàm số bậc hai', 'có hệ số', 'hệ số a')
+- ('hàm số bậc hai', 'có hệ số', 'hệ số b')
+- ('đồ thị hàm số', 'đi qua', 'điểm (0; 0)')
+- ('đồ thị hàm số', 'đi qua', 'điểm (27; 0)')
+- ('đồ thị hàm số', 'đi qua', 'điểm (2,26; 20)')
+- ('điểm (27; 0)', 'xác định', 'hệ phương trình')
+- ('điểm (2,26; 20)', 'xác định', 'hệ phương trình')
+- ('hàm số bậc hai', 'có tọa độ', 'tọa độ đỉnh của parabola')
+- ('tọa độ đỉnh của parabola', 'xác định', 'độ cao của đỉnh trụ tháp cầu')
+---
+Entities:
+- 'gv': 'giáo viên'
+- 'hs': 'học sinh'
+- 'bảng hàm số': 'bảng'
+- 'y = x^2 + 2x + 2': 'hàm số bậc 2'
+- 'y = -2x^2 - 3x + 1': 'hàm số bậc 2'
+- 'hệ số a': 'hệ số'
+- 'bề lõm của đồ thị': 'tính chất đồ thị'
+- 'tọa độ điểm cao nhất/thấp nhất': 'tọa độ'
+- 'trục đối xứng': 'trục'
+
+Relationships:
+- ('gv', 'quan sát và trợ giúp', 'hs')
+- ('hs', 'giơ tay phát biểu', 'bước 3')
+- ('hs', 'lên bảng trình bày', 'bước 3')
+- ('hs khác', 'nhận xét, bổ sung cho', 'bạn')
+- ('gv', 'tổng quát lưu ý lại', 'kiến thức trọng tâm')
+- ('gv', 'yêu cầu', 'hs ghi chép đầy đủ vào vở')
+- ('học sinh', 'củng cố lại', 'kiến thức')
+- ('hs', 'vận dụng', 'các kiến thức của bài học')
+- ('bảng hàm số', 'chứa', 'y = x^2 + 2x + 2')
+- ('bảng hàm số', 'chứa', 'y = -2x^2 - 3x + 1')
+- ('y = x^2 + 2x + 2', 'có hệ số', 'hệ số a')
+- ('y = x^2 + 2x + 2', 'có', 'bề lõm của đồ thị')
+- ('y = x^2 + 2x + 2', 'có', 'tọa độ điểm cao nhất/thấp nhất')
+- ('y = x^2 + 2x + 2', 'có', 'trục đối xứng')
+- ('y = -2x^2 - 3x + 1', 'có hệ số', 'hệ số a')
+- ('y = -2x^2 - 3x + 1', 'có', 'bề lõm của đồ thị')
+- ('y = -2x^2 - 3x + 1', 'có', 'tọa độ điểm cao nhất/thấp nhất')
+- ('y = -2x^2 - 3x + 1', 'có', 'trục đối xứng')
+---
+Entities:
+- 'sản phẩm học tập': 'Hoạt động'
+- 'hs': 'Học sinh'
+- 'yếu tố': 'Khái niệm'
+- 'parabol': 'Đối tượng toán học'
+- 'khoảng đồng biến': 'Khái niệm'
+- 'nghịch biến': 'Khái niệm'
+- 'hàm số bậc hai': 'Hàm số'
+- 'phương trình parabol': 'Phương trình'
+- 'điều kiện': 'Khái niệm'
+- 'tổ chức thực hiện': 'Hoạt động'
+- 'bước 1': 'Giai đoạn'
+- 'chuyển giao nhiệm vụ': 'Hoạt động'
+- 'gv': 'Giáo viên'
+- 'kiến thức cần ghi nhớ': 'Khái niệm'
+- 'bài 6.7': 'Bài tập'
+- 'bài 6.8': 'Bài tập'
+- 'bài 6.9': 'Bài tập'
+- 'bài 6.10': 'Bài tập'
+- 'bài 6.11': 'Bài tập'
+- 'sgk -tr16': 'Tài liệu'
+- 'bước 2': 'Giai đoạn'
+- 'thực hiện nhiệm vụ': 'Hoạt động'
+- 'bước 3': 'Giai đoạn'
+- 'báo cáo': 'Hoạt động'
+- 'thảo luận': 'Hoạt động'
+- 'bước 4': 'Giai đoạn'
+- 'kết luận': 'Hoạt động'
+- 'nhận định': 'Hoạt động'
+- 'đáp án': 'Kết quả'
+- 'lỗi sai': 'Khái niệm'
+- 'thái độ làm việc': 'Khái niệm'
+- 'phương án trả lời': 'Khái niệm'
+- 'công thức': 'Công thức'
+- 'tọa độ đỉnh': 'Khái niệm'
+- 'trục đối xứng': 'Khái niệm'
+- 'giao điểm với oy': 'Khái niệm'
+- 'giao điểm với ox': 'Khái niệm'
+
+Relationships:
+- ('hs', 'xác định', 'yếu tố')
+- ('hs', 'vẽ', 'parabol')
+- ('hs', 'tìm', 'khoảng đồng biến')
+- ('hs', 'tìm', 'nghịch biến')
+- ('hs', 'xác định', 'phương trình parabol')
+- ('phương trình parabol', 'phụ thuộc vào', 'điều kiện')
+- ('gv', 'tổng hợp', 'kiến thức cần ghi nhớ')
+- ('gv', 'tổ chức', 'hs')
+- ('gv', 'hướng dẫn', 'bài 6.7')
+- ('gv', 'hướng dẫn', 'bài 6.8')
+- ('gv', 'hướng dẫn', 'bài 6.9')
+- ('gv', 'hướng dẫn', 'bài 6.10')
+- ('gv', 'hướng dẫn', 'bài 6.11')
+- ('bài 6.7', 'có trong', 'sgk -tr16')
+- ('hs', 'thực hiện', 'bài tập')
+- ('gv', 'quan sát', 'hs')
+- ('gv', 'hỗ trợ', 'hs')
+- ('hs', 'báo cáo', 'giáo viên')
+- ('hs', 'thảo luận', 'giáo viên')
+- ('gv', 'chữa bài', 'đáp án')
+- ('gv', 'chú ý', 'lỗi sai')
+- ('gv', 'nhận xét', 'thái độ làm việc')
+- ('gv', 'nhận xét', 'phương án trả lời')
+- ('công thức', 'liên quan đến', 'tọa độ đỉnh')
+- ('công thức', 'liên quan đến', 'trục đối xứng')
+- ('công thức', 'liên quan đến', 'giao điểm với oy')
+- ('công thức', 'liên quan đến', 'giao điểm với ox')
+---
+Entities:
+- 'tọa độ đỉnh': 'tọa độ'
+- 'trục đối xứng': 'trục'
+- 'giao với oy': 'điểm giao'
+- 'giao với ox': 'điểm giao'
+- 'đồ thị': 'đồ thị'
+- 'điểm (-1; 0)': 'điểm'
+
+Relationships:
+- ('tọa độ đỉnh', 'có giá trị', 'i \left(\frac{1}{2}; \frac{7}{2}\right)')
+- ('trục đối xứng', 'có giá trị', 'x = \frac{1}{2}')
+- ('giao với oy', 'có giá trị', '(0; 3)')
+- ('giao với ox', 'có giá trị', 'i \left( \frac{1 \pm \sqrt{7}}{2}; 0 \right)')
+- ('tọa độ đỉnh', 'có giá trị', 'i (-1; 0)')
+- ('trục đối xứng', 'có giá trị', 'x = -1')
+- ('giao với oy', 'có giá trị', '(0; 1)')
+- ('đồ thị', 'tiếp xúc với', 'ox')
+- ('đồ thị', 'tại điểm', 'điểm (-1; 0)')
+---
+Entities:
+- 'tọa độ đỉnh i': 'tọa độ'
+- 'trục đối xứng': 'trục'
+- 'giao với oy': 'giao điểm'
+- 'đồ thị': 'đồ thị'
+- 'ox': 'trục'
+- 'oy': 'trục'
+- 'hàm số đồng biến trên khoảng': 'hàm số'
+- 'hàm số nghịch biến trên khoảng': 'hàm số'
+- 'khoảng \(\left(\frac{3}{2}; +\infty\right)\)': 'khoảng'
+- 'khoảng \(\left(-\infty; \frac{3}{2}\right)\)': 'khoảng'
+- 'khoảng \(\left(-\infty; \frac{1}{2}\right)\)': 'khoảng'
+- 'khoảng \(\left(\frac{1}{2}; +\infty\right)\)': 'khoảng'
+
+Relationships:
+- ('tọa độ đỉnh i', 'có trục đối xứng', 'trục đối xứng')
+- ('tọa độ đỉnh i', 'giao với', 'giao với oy')
+- ('đồ thị', 'không cắt', 'ox')
+- ('hàm số đồng biến trên khoảng', 'trên', 'khoảng \(\left(\frac{3}{2}; +\infty\right)\)')
+- ('hàm số nghịch biến trên khoảng', 'trên', 'khoảng \(\left(-\infty; \frac{3}{2}\right)\)')
+- ('hàm số đồng biến trên khoảng', 'trên', 'khoảng \(\left(-\infty; \frac{1}{2}\right)\)')
+- ('hàm số nghịch biến trên khoảng', 'trên', 'khoảng \(\left(\frac{1}{2}; +\infty\right)\)')
+---
+Entities:
+- 'hàm số đồng biến': 'hàm số'
+- 'hàm số nghịch biến': 'hàm số'
+- 'parabol \(y = \frac{5}{2} x^2 - \frac{7}{2} x + 1\)': 'hàm số'
+- 'parabol \(y = x^2 - 2x + 1\)': 'hàm số'
+- 'parabol \(y = -x^2 + 2x + 1\)': 'hàm số'
+- 'trục đối xứng \(x = 1\)': 'trục đối xứng'
+- 'đỉnh i(1; 2)': 'đỉnh'
+- 'tọa độ điểm a': 'tọa độ'
+- 'tọa độ điểm b': 'tọa độ'
+- 'hệ phương trình': 'hệ phương trình'
+- 'tham số a': 'hệ số'
+- 'tham số b': 'hệ số'
+
+Relationships:
+- ('hàm số đồng biến', 'trên khoảng', '(-1; +∞)')
+- ('hàm số nghịch biến', 'trên khoảng', '(-∞; -1)')
+- ('hàm số đồng biến', 'trên khoảng', '(-∞; \frac{1}{2})')
+- ('hàm số nghịch biến', 'trên khoảng', '(\frac{1}{2}; +∞)')
+- ('parabol \(y = \frac{5}{2} x^2 - \frac{7}{2} x + 1\)', 'có trục đối xứng', 'trục đối xứng \(x = 1\)')
+- ('parabol \(y = x^2 - 2x + 1\)', 'có trục đối xứng', 'trục đối xứng \(x = 1\)')
+- ('parabol \(y = -x^2 + 2x + 1\)', 'có đỉnh', 'đỉnh i(1; 2)')
+- ('tọa độ điểm a', 'được thay vào', 'hàm số')
+- ('tọa độ điểm b', 'được thay vào', 'hàm số')
+- ('hệ phương trình', 'được giải để tìm', 'tham số a')
+- ('hệ phương trình', 'được giải để tìm', 'tham số b')
+---
+Entities:
+- 'parabol': 'đồ thị'
+- 'điểm đỉnh': 'điểm'
+- 'tọa độ i': 'tọa độ'
+- 'hàm số': 'hàm số'
+- 'hệ phương trình': 'hệ phương trình'
+- 'tham số a': 'hệ số'
+- 'tham số b': 'hệ số'
+- 'tham số c': 'hệ số'
+- 'bài 6.10': 'bài tập'
+- 'bài 6.11': 'bài tập'
+- 'trục hoành': 'trục'
+- 'điều kiện a > 0': 'điều kiện'
+- 'điều kiện a < 0': 'điều kiện'
+- 'điều kiện \(\delta < 0\)': 'điều kiện'
+- 'kết quả a = b = 5': 'kết quả'
+- 'kết quả a = 3': 'kết quả'
+- 'kết quả b = -36': 'kết quả'
+- 'kết quả c = 96': 'kết quả'
+
+Relationships:
+- ('parabol', 'có', 'điểm đỉnh')
+- ('điểm đỉnh', 'có', 'tọa độ i')
+- ('tọa độ i', 'được thay vào', 'hàm số')
+- ('hàm số', 'có', 'hệ phương trình')
+- ('hệ phương trình', 'liên quan đến', 'tham số a')
+- ('hệ phương trình', 'liên quan đến', 'tham số b')
+- ('hệ phương trình', 'liên quan đến', 'tham số c')
+- ('bài 6.10', 'liên quan đến', 'hệ phương trình')
+- ('bài 6.11', 'liên quan đến', 'điều kiện a > 0')
+- ('bài 6.11', 'liên quan đến', 'điều kiện a < 0')
+- ('bài 6.11', 'liên quan đến', 'điều kiện \(\delta < 0\)')
+- ('hệ phương trình', 'dẫn đến', 'kết quả a = b = 5')
+- ('hệ phương trình', 'dẫn đến', 'kết quả a = 3')
+- ('hệ phương trình', 'dẫn đến', 'kết quả b = -36')
+- ('hệ phương trình', 'dẫn đến', 'kết quả c = 96')
+---
+Entities:
+- 'đồ thị': 'đối tượng'
+- 'trục hoành': 'đối tượng'
+- 'a': 'hệ số'
+- 'delta': 'delta'
+- 'p': 'đường thẳng'
+- 'học sinh': 'người'
+- 'hs': 'người'
+- 'kiến thức': 'khái niệm'
+- 'bài tập': 'nhiệm vụ'
+- 'sgk': 'tài liệu'
+- 'gv': 'người'
+- 'câu hỏi trắc nghiệm': 'nhiệm vụ'
+- 'kết quả thảo luận': 'kết quả'
+
+Relationships:
+- ('đồ thị', 'cắt', 'trục hoành')
+- ('đồ thị', 'phải quay lên', 'a > 0')
+- ('đồ thị', 'cắt trục hoành tại 2 điểm phân biệt', 'delta > 0')
+- ('p', 'tiếp xúc với', 'trục hoành')
+- ('p', 'nằm phía trên', 'trục hoành')
+- ('đồ thị', 'tiếp xúc với', 'trục hoành')
+- ('đồ thị', 'phải quay lên', 'a > 0')
+- ('đồ thị', 'tiếp xúc với trục hoành', 'delta = 0')
+- ('học sinh', 'thực hiện', 'bài tập')
+- ('hs', 'thấy', 'sự gần gũi toán học')
+- ('hs', 'sử dụng', 'sgk')
+- ('hs', 'vận dụng', 'kiến thức')
+- ('hs', 'giải quyết', 'bài toán')
+- ('gv', 'yêu cầu', 'hs')
+- ('hs', 'hoàn thành', 'bài tập')
+- ('hs', 'suy nghĩ', 'thực hiện nhiệm vụ')
+- ('hs', 'trao đổi', 'thực hiện nhiệm vụ')
+- ('hs', 'thảo luận', 'thực hiện nhiệm vụ')
+- ('gv', 'điều hành', 'thực hiện nhiệm vụ')
+- ('gv', 'quan sát', 'thực hiện nhiệm vụ')
+- ('gv', 'hỗ trợ', 'thực hiện nhiệm vụ')
+- ('câu hỏi trắc nghiệm', 'hs trả lời', 'nhanh')
+- ('hs', 'giải thích', 'câu hỏi trắc nghiệm')
+- ('hs', 'chú ý', 'lắng nghe')
+- ('hs', 'sửa lỗi', 'sai')
+- ('đại diện hs', 'trình bày', 'kết quả thảo luận')
+- ('các hs khác', 'theo dõi', 'kết quả thảo luận')
+- ('các hs khác', 'đưa ý kiến', 'kết quả thảo luận')
+---
+Entities:
+- 'hàm số': 'hàm số'
+- 'hệ trục tọa độ Oxy': 'hệ trục tọa độ'
+- 'chân cổng': 'điểm'
+- 'gốc tọa độ': 'điểm'
+- 'tia Ox': 'đường thẳng'
+- 'parabol': 'đồ thị'
+- 'điểm a(8; 0)': 'điểm'
+- 'điểm b(0,5; 2,93)': 'điểm'
+- 'đỉnh I(4; 12,5)': 'điểm'
+- 'chiều cao của cổng': 'kích thước'
+- 'An': 'người'
+- 'nửa chu vi': 'kích thước'
+- 'hình chữ nhật': 'hình học'
+- 'chiều dài': 'kích thước'
+- 'diện tích': 'kích thước'
+- 'x': 'biến số'
+
+Relationships:
+- ('hàm số', 'được biểu diễn bởi', 'parabol')
+- ('hệ trục tọa độ Oxy', 'có', 'gốc tọa độ')
+- ('chân cổng', 'đặt tại', 'gốc tọa độ')
+- ('chân cổng', 'đặt trên', 'tia Ox')
+- ('parabol', 'đi qua', 'điểm a(8; 0)')
+- ('parabol', 'đi qua', 'điểm b(0,5; 2,93)')
+- ('hàm số', 'có đỉnh', 'đỉnh I(4; 12,5)')
+- ('chiều cao của cổng', 'là', '12,5 m')
+- ('An', 'có kết quả', 'gần chính xác')
+- ('nửa chu vi', 'của', 'hình chữ nhật')
+- ('chiều dài', 'của', 'hình chữ nhật')
+- ('diện tích', 'là', 'hàm số của x')
+---
+Entities:
+- 'mảnh vườn': 'vật thể'
+- 'diện tích': 'đặc tính'
+- 'chiều rộng': 'đặc tính'
+- 'hàm số': 'hàm số'
+- 'giá trị lớn nhất': 'kết quả'
+- 'x': 'biến số'
+- 'công thức': 'công thức'
+- 'kích thước': 'đặc tính'
+
+Relationships:
+- ('mảnh vườn', 'có', 'diện tích')
+- ('diện tích', 'là hàm số của', 'chiều rộng')
+- ('hàm số', 'đạt', 'giá trị lớn nhất')
+- ('giá trị lớn nhất', 'xảy ra khi', 'x = 10')
+- ('mảnh vườn', 'có', 'kích thước')
+---
+Entities:
+- 'Nguyễn Thị Hà An': 'Giáo viên'
+- 'Nguyễn Ngọc Tân': 'Giáo viên'
+- 'Nguyễn Trạch Thành': 'Giáo viên'
+- 'Nguyễn Minh Thành': 'Giáo viên'
+- 'Nguyễn Ngọc Nam': 'Giáo viên'
+- 'THPT Lý Thái Tổ': 'Trường học'
+- 'THPT Phước Vĩnh': 'Trường học'
+- 'Bài 16: Hàm số bậc hai': 'Bài học'
+- 'Toán': 'Môn học'
+- 'Lớp 10': 'Lớp học'
+- 'Hàm số bậc hai': 'Hàm số'
+- 'Parabol': 'Đồ thị'
+- 'Đỉnh': 'Tính chất'
+- 'Trục đối xứng': 'Tính chất'
+- 'Thời gian thực hiện': 'Thời gian'
+- '3 tiết': 'Thời lượng'
+- 'Yêu cầu cần đạt': 'Mục tiêu'
+- 'Tư duy và lập luận toán học': 'Năng lực'
+- 'Mô hình hoá toán học': 'Năng lực'
+- 'Giao tiếp toán học': 'Năng lực'
+- 'Công thức 1': 'Công thức'
+- 'Công thức 2': 'Công thức'
+
+Relationships:
+- ('Nguyễn Thị Hà An', 'giảng dạy tại', 'THPT Lý Thái Tổ')
+- ('Nguyễn Ngọc Tân', 'giảng dạy tại', 'THPT Phước Vĩnh')
+- ('Nguyễn Trạch Thành', 'giảng dạy tại', 'THPT Phước Vĩnh')
+- ('Nguyễn Minh Thành', 'giảng dạy tại', 'THPT Phước Vĩnh')
+- ('Nguyễn Ngọc Nam', 'giảng dạy tại', 'THPT Phước Vĩnh')
+- ('Bài 16: Hàm số bậc hai', 'thuộc môn', 'Toán')
+- ('Bài 16: Hàm số bậc hai', 'dành cho', 'Lớp 10')
+- ('Bài 16: Hàm số bậc hai', 'có thời gian', '3 tiết')
+- ('Hàm số bậc hai', 'có đồ thị', 'Parabol')
+- ('Parabol', 'có tính chất', 'Đỉnh')
+- ('Parabol', 'có tính chất', 'Trục đối xứng')
+- ('Bài 16: Hàm số bậc hai', 'có mục tiêu', 'Yêu cầu cần đạt')
+- ('Yêu cầu cần đạt', 'liên quan đến', 'Tư duy và lập luận toán học')
+- ('Yêu cầu cần đạt', 'liên quan đến', 'Mô hình hoá toán học')
+- ('Yêu cầu cần đạt', 'liên quan đến', 'Giao tiếp toán học')
+- ('Hàm số bậc hai', 'được biểu diễn bởi', 'Công thức 1')
+- ('Hàm số bậc hai', 'được biểu diễn bởi', 'Công thức 2')
+---
+Entities:
+- 'giá trị lớn nhất': 'khái niệm'
+- 'giá trị nhỏ nhất': 'khái niệm'
+- 'đồ thị hàm số parabol': 'đồ thị'
+- 'máy tính cầm tay': 'công cụ'
+- 'điện thoại': 'công cụ'
+- 'laptop': 'công cụ'
+- 'bảng phụ': 'công cụ'
+- 'thước parabol': 'công cụ'
+- 'phần mềm Geogebra': 'phần mềm'
+- 'logo McDonald’s': 'hình ảnh'
+- 'hoa văn có dạng parabol': 'hình ảnh'
+- 'chăm chỉ': 'phẩm chất'
+- 'trung thực': 'phẩm chất'
+- 'trách nhiệm': 'phẩm chất'
+- 'máy tính xách tay': 'thiết bị'
+- 'máy chiếu': 'thiết bị'
+- 'điện thoại thông minh': 'thiết bị'
+- 'phần mềm trình chiếu': 'phần mềm'
+- 'phần mềm vẽ đồ thị': 'phần mềm'
+- 'phiếu học tập': 'học liệu'
+- 'dụng cụ học tập': 'học liệu'
+- 'thành phố Đà Nẵng': 'địa điểm'
+- 'cầu vượt ba tầng': 'công trình'
+- 'nút giao ngã ba Huế': 'địa điểm'
+- 'giáo viên': 'người'
+- 'học sinh': 'người'
+- 'chuyến du lịch': 'hoạt động'
+
+Relationships:
+- ('máy tính cầm tay', 'được sử dụng để', 'tính bằng giá trị')
+- ('điện thoại', 'được sử dụng để', 'tìm kiếm và trình bày các hình ảnh của parabol')
+- ('laptop', 'được sử dụng để', 'tìm kiếm và trình bày các hình ảnh của parabol')
+- ('bảng phụ', 'được sử dụng để', 'vẽ đồ thị hàm số bậc hai')
+- ('thước parabol', 'được sử dụng để', 'vẽ đồ thị hàm số bậc hai')
+- ('phần mềm Geogebra', 'được sử dụng để', 'vẽ logo McDonald’s')
+- ('phần mềm Geogebra', 'được sử dụng để', 'vẽ các hình ảnh hoa văn có dạng parabol')
+- ('giáo viên', 'cho phép', 'học sinh tham gia chuyến du lịch')
+- ('thành phố Đà Nẵng', 'có', 'cầu vượt ba tầng')
+- ('cầu vượt ba tầng', 'nằm ở', 'nút giao ngã ba Huế')
+- ('giáo viên', 'đặt câu hỏi về', 'trụ tháp của cây cầu')
+- ('giáo viên', 'đặt câu hỏi về', 'phương trình của đường cong')
+---
+Entities:
+- 'học sinh': 'người'
+- 'giáo viên': 'người'
+- 'cầu vượt ba tầng': 'công trình'
+- 'nút giao ngã ba Huế': 'địa điểm'
+- 'thành phố Đà Nẵng': 'địa điểm'
+- 'trụ tháp cầu': 'công trình'
+- 'hình parabol': 'hình dạng'
+- 'đường parabol': 'đồ thị'
+- 'hàm số bậc hai': 'hàm số'
+- 'video': 'phương tiện'
+- 'chuyến du lịch': 'hoạt động'
+- 'màn ảnh nhỏ': 'phương tiện'
+- 'nội dung bài học': 'nội dung'
+- 'công thức toán học': 'công thức'
+- '\( y = ax^2 \)': 'công thức'
+- '\( y = ax^2, \, a \neq 0 \)': 'công thức'
+
+Relationships:
+- ('cầu vượt ba tầng', 'nằm ở', 'nút giao ngã ba Huế')
+- ('nút giao ngã ba Huế', 'thuộc', 'thành phố Đà Nẵng')
+- ('trụ tháp cầu', 'được thiết kế theo', 'hình parabol')
+- ('đường parabol', 'là', 'đồ thị')
+- ('học sinh', 'biết', 'cầu vượt ba tầng')
+- ('học sinh', 'nhìn thấy ứng dụng của', 'đường parabol')
+- ('giáo viên', 'mời', 'học sinh')
+- ('giáo viên', 'giới thiệu', 'nội dung bài học')
+- ('học sinh', 'xem', 'video')
+- ('giáo viên', 'đặt vấn đề', 'học sinh trả lời')
+- ('video', 'liên kết', 'https://www.youtube.com/watch?v=dfktjw22iyy')
+- ('hàm số bậc hai', 'được biểu diễn bởi', '\( y = ax^2 \)')
+- ('hàm số bậc hai', 'được biểu diễn bởi', '\( y = ax^2, \, a \neq 0 \)')
+---
+Entities:
+- 'hàm số bậc hai': 'hàm số'
+- 'tập xác định của hàm số bậc hai': 'tập xác định'
+- 'giáo viên': 'người'
+- 'học sinh': 'người'
+- 'nhóm': 'tổ chức'
+- 'bác Việt': 'người'
+- 'tấm lưới': 'vật thể'
+- 'mảnh đất': 'vật thể'
+- 'vị trí cọc p': 'vị trí'
+- 'vị trí cọc q': 'vị trí'
+- 'bờ tường': 'vật thể'
+- 'khu vườn': 'vật thể'
+- 'hình chữ nhật': 'hình dạng'
+- 'diện tích mảnh đất': 'diện tích'
+- 'hàm số \(y = ax^2\)': 'hàm số'
+
+Relationships:
+- ('giáo viên', 'yêu cầu', 'học sinh')
+- ('học sinh', 'làm việc theo', 'nhóm')
+- ('bác Việt', 'sở hữu', 'tấm lưới')
+- ('tấm lưới', 'dài', '20m')
+- ('tấm lưới', 'dùng để', 'rào chắn')
+- ('rào chắn', 'bao quanh', 'mảnh đất')
+- ('mảnh đất', 'nằm trong', 'khu vườn')
+- ('mảnh đất', 'có hình dạng', 'hình chữ nhật')
+- ('vị trí cọc p', 'cách', 'bờ tường')
+- ('vị trí cọc q', 'cách', 'bờ tường')
+- ('diện tích mảnh đất', 'phụ thuộc vào', 'vị trí cọc p')
+- ('diện tích mảnh đất', 'phụ thuộc vào', 'vị trí cọc q')
+- ('học sinh', 'nhận xét về', 'hàm số \(y = ax^2\)')
+- ('hàm số bậc hai', 'có', 'tập xác định của hàm số bậc hai')
+---
+Entities:
+- 'hàm số bậc hai': 'hàm số'
+- 'hàm số': 'hàm số'
+- 'hàm số y = x^4 + 3x^2 + 2': 'hàm số'
+- 'hàm số y = 1/x^2': 'hàm số'
+- 'hàm số y = -3x^2 + 1': 'hàm số'
+- 'hàm số y = 3(1/x)^2 + 1/x - 1': 'hàm số'
+- 'hàm số y = (x - 1)(2 - 3x)': 'hàm số'
+- 'hàm số y = -3x^2 + 5x - 2': 'hàm số'
+- 'hàm số h = 19,6 - 4,9t^2': 'hàm số'
+- 'viên bi': 'vật thể'
+- 'độ cao h': 'biến số'
+- 'thời gian t': 'biến số'
+- 'x': 'biến số'
+- 'a': 'hệ số'
+- 'b': 'hệ số'
+- 'c': 'hệ số'
+- 'r': 'tập xác định'
+- 'p': 'vị trí'
+- 'q': 'vị trí'
+- 'diện tích s': 'kết quả'
+- 'mặt đất': 'vị trí'
+- 'tường': 'vị trí'
+
+Relationships:
+- ('hàm số bậc hai', 'có hệ số', 'a')
+- ('hàm số bậc hai', 'có hệ số', 'b')
+- ('hàm số bậc hai', 'có hệ số', 'c')
+- ('hàm số bậc hai', 'có tập xác định', 'r')
+- ('hàm số', 'có dạng', 'y = ax^2 + bx + c')
+- ('hàm số y = x^4 + 3x^2 + 2', 'không phải là', 'hàm số bậc hai')
+- ('hàm số y = 1/x^2', 'không phải là', 'hàm số bậc hai')
+- ('hàm số y = -3x^2 + 1', 'là', 'hàm số bậc hai')
+- ('hàm số y = 3(1/x)^2 + 1/x - 1', 'không phải là', 'hàm số bậc hai')
+- ('hàm số y = (x - 1)(2 - 3x)', 'có thể là', 'hàm số bậc hai')
+- ('hàm số y = -3x^2 + 5x - 2', 'là', 'hàm số bậc hai')
+- ('hàm số h = 19,6 - 4,9t^2', 'phụ thuộc vào', 'thời gian t')
+- ('viên bi', 'rơi từ', 'độ cao 19,6 m')
+- ('viên bi', 'rơi đến', 'mặt đất')
+- ('vị trí cọc p,q', 'cách', 'tường 3m')
+- ('vị trí cọc p,q', 'cách', 'tường 4m')
+- ('vị trí cọc p,q', 'cách', 'tường x m')
+- ('diện tích s', 'bằng', '42m^2 khi cách tường 3m')
+- ('diện tích s', 'bằng', '48m^2 khi cách tường 4m')
+- ('diện tích s', 'bằng', '-2x^2 + 20x khi cách tường x m')
+---
+Entities:
+- 'viên bi': 'vật thể'
+- 'hàm số h': 'hàm số'
+- 'tập xác định': 'tập hợp'
+- 'tập giá trị': 'tập hợp'
+- 'giáo viên': 'người'
+- 'học sinh': 'người'
+- 'nhiệm vụ': 'hoạt động'
+- 'nhóm': 'tập thể'
+- 'kết quả nhiệm vụ': 'kết quả'
+- 'kiến thức': 'khái niệm'
+- 'đồ thị hàm số bậc hai': 'đồ thị'
+- 'đường cong parabol': 'hình dáng'
+- 'đỉnh': 'tính chất'
+- 'trục đối xứng': 'tính chất'
+- 'hàm số y = ax^2 + bx + c': 'hàm số'
+- 'phép dịch chuyển': 'phép toán'
+
+Relationships:
+- ('viên bi', 'chạm đất tại', 'h = 0')
+- ('hàm số h', 'có', 'tập xác định')
+- ('hàm số h', 'có', 'tập giá trị')
+- ('giáo viên', 'triển khai', 'nhiệm vụ cho học sinh')
+- ('học sinh', 'thực hiện', 'nhiệm vụ theo nhóm')
+- ('giáo viên', 'theo dõi', 'học sinh')
+- ('giáo viên', 'hỗ trợ', 'học sinh')
+- ('giáo viên', 'hướng dẫn', 'học sinh')
+- ('giáo viên', 'gọi', 'học sinh đại diện')
+- ('học sinh đại diện', 'báo cáo', 'kết quả nhiệm vụ')
+- ('giáo viên', 'cho', 'học sinh nhận xét, đánh giá')
+- ('giáo viên', 'nhận xét và chính xác hóa', 'kiến thức')
+- ('học sinh', 'thảo luận', 'nhóm')
+- ('đồ thị hàm số bậc hai', 'có hình dáng', 'đường cong parabol')
+- ('hàm số y = ax^2 + bx + c', 'là', 'đồ thị hàm số bậc hai')
+- ('đồ thị hàm số bậc hai', 'có', 'đỉnh')
+- ('đồ thị hàm số bậc hai', 'có', 'trục đối xứng')
+- ('hàm số y = ax^2 + bx + c', 'là', 'đường parabol sau phép dịch chuyển')
+---
+Entities:
+- 'đồ thị hàm số bậc hai': 'đồ thị'
+- 'tính chất đỉnh': 'tính chất'
+- 'trục đối xứng': 'tính chất'
+- 'hệ số': 'hệ số'
+- 'bề lõm lên trên': 'tính chất'
+- 'bề lõm xuống dưới': 'tính chất'
+- 'tọa độ điểm cao nhất': 'tính chất'
+- 'tọa độ điểm thấp nhất': 'tính chất'
+- 'công thức toán học': 'công thức'
+- '\( y = a(x - m)^2 + n \)': 'công thức'
+- '\( y = ax^2 \quad (a \neq 0) \)': 'công thức'
+- '\( y = (x - 0)^2 + 0 \)': 'công thức'
+- '\( y = (x - 1)^2 + 1 \)': 'công thức'
+
+Relationships:
+- ('đồ thị hàm số bậc hai', 'có tính chất', 'tính chất đỉnh')
+- ('đồ thị hàm số bậc hai', 'có tính chất', 'trục đối xứng')
+- ('hệ số', 'quyết định', 'bề lõm lên trên')
+- ('hệ số', 'quyết định', 'bề lõm xuống dưới')
+- ('đồ thị hàm số bậc hai', 'có tính chất', 'tọa độ điểm cao nhất')
+- ('đồ thị hàm số bậc hai', 'có tính chất', 'tọa độ điểm thấp nhất')
+- ('công thức toán học', 'bao gồm', '\( y = a(x - m)^2 + n \)')
+- ('công thức toán học', 'bao gồm', '\( y = ax^2 \quad (a \neq 0) \)')
+- ('công thức toán học', 'bao gồm', '\( y = (x - 0)^2 + 0 \)')
+- ('công thức toán học', 'bao gồm', '\( y = (x - 1)^2 + 1 \)')
+---
+Entities:
+- 'đồ thị hàm số \(y = ax^2\)': 'đồ thị'
+- 'hệ số a': 'hệ số'
+- 'đỉnh O(0;0)': 'đỉnh'
+- 'trục đối xứng': 'trục'
+- 'trục tung': 'trục'
+- 'giáo viên': 'người'
+- 'học sinh': 'người'
+- 'nhóm học sinh': 'nhóm'
+- 'đồ thị hàm số \(y = a(x + 0)^2 + 0\)': 'đồ thị'
+- 'đồ thị hàm số \(y = a(x - m)^2 + n\)': 'đồ thị'
+- 'nhiệm vụ': 'hoạt động'
+- 'kết quả thảo luận': 'kết quả'
+- 'kiến thức về đỉnh, trục đối xứng': 'kiến thức'
+
+Relationships:
+- ('đồ thị hàm số \(y = ax^2\)', 'có hệ số', 'hệ số a')
+- ('hệ số a', 'lớn hơn', '0')
+- ('hệ số a', 'nhỏ hơn', '0')
+- ('đồ thị hàm số \(y = ax^2\)', 'có đỉnh', 'đỉnh O(0;0)')
+- ('đồ thị hàm số \(y = ax^2\)', 'có trục đối xứng', 'trục tung')
+- ('giáo viên', 'triển khai', 'nhiệm vụ')
+- ('học sinh', 'thảo luận', 'nhóm học sinh')
+- ('giáo viên', 'theo dõi', 'học sinh')
+- ('giáo viên', 'hỗ trợ', 'học sinh')
+- ('giáo viên', 'hướng dẫn', 'học sinh')
+- ('giáo viên', 'gọi', 'học sinh')
+- ('học sinh', 'báo cáo', 'kết quả thảo luận')
+- ('giáo viên', 'nhận xét', 'kiến thức về đỉnh, trục đối xứng')
+---
+Entities:
+- 'Nhóm': 'Đối tượng'
+- 'Hoạt động sôi nổi, tích cực': 'Tiêu chí'
+- 'Thành viên': 'Thành phần'
+- 'Thảo luận': 'Hoạt động'
+- 'Bài': 'Nhiệm vụ'
+- 'Thời gian': 'Yếu tố'
+- 'PHT số 1': 'Phiếu học tập'
+- 'Thông tin': 'Dữ liệu'
+- 'PHT số 2': 'Phiếu học tập'
+- 'Hình 1': 'Hình ảnh'
+- 'Hình 2': 'Hình ảnh'
+- 'Hình 3': 'Hình ảnh'
+- 'Hình 4': 'Hình ảnh'
+- 'Hoạt động 2.3': 'Hoạt động'
+- 'Đồ thị hàm số bậc hai': 'Đồ thị'
+- 'Bề lõm quay lên (xuống)': 'Tính chất'
+- 'Đỉnh': 'Tính chất'
+- 'Trục đối xứng': 'Tính chất'
+- 'Vẽ đồ thị hàm bậc hai': 'Hoạt động'
+- 'Khoảng biến thiên': 'Khái niệm'
+- 'GV': 'Giáo viên'
+- 'Hàm số \( y = ax^2 + bx + c \)': 'Hàm số'
+- 'Dạng \( y = a\left(x - \frac{b}{2a}\right)^2 + \frac{-\delta}{4a} \)': 'Dạng hàm số'
+- 'HS': 'Học sinh'
+- 'Khoảng đồng biến': 'Khái niệm'
+- 'Khoảng nghịch biến': 'Khái niệm'
+- 'Phiếu học tập số 3': 'Phiếu học tập'
+- 'Hàm số \( y = -2x^2 + 20x \)': 'Hàm số'
+- 'MP(Oxy)': 'Mặt phẳng'
+- 'Điểm': 'Yếu tố'
+- 'Tính đối xứng': 'Tính chất'
+- 'Bảng phụ': 'Dụng cụ'
+
+Relationships:
+- ('Nhóm', 'có', 'Hoạt động sôi nổi, tích cực')
+- ('Nhóm', 'có', 'Thành viên')
+- ('Thành viên', 'tham gia', 'Thảo luận')
+- ('Thành viên', 'nộp', 'Bài')
+- ('Bài', 'đúng', 'Thời gian')
+- ('PHT số 1', 'yêu cầu', 'Thông tin')
+- ('PHT số 2', 'thực hiện đúng', 'Hình 1')
+- ('PHT số 2', 'thực hiện đúng', 'Hình 2')
+- ('PHT số 2', 'thực hiện đúng', 'Hình 3')
+- ('PHT số 2', 'thực hiện đúng', 'Hình 4')
+- ('Hoạt động 2.3', 'hình thành', 'Tính chất')
+- ('Đồ thị hàm số bậc hai', 'có', 'Bề lõm quay lên (xuống)')
+- ('Đồ thị hàm số bậc hai', 'có', 'Đỉnh')
+- ('Đồ thị hàm số bậc hai', 'có', 'Trục đối xứng')
+- ('GV', 'biến đổi', 'Hàm số \( y = ax^2 + bx + c \)')
+- ('Hàm số', 'chuyển thành', 'Dạng \( y = a\left(x - \frac{b}{2a}\right)^2 + \frac{-\delta}{4a} \)')
+- ('HS', 'nhắc lại', 'Khoảng đồng biến')
+- ('HS', 'nhắc lại', 'Khoảng nghịch biến')
+- ('HS', 'thực hiện', 'Phiếu học tập số 3')
+- ('Hàm số \( y = -2x^2 + 20x \)', 'được biểu diễn trên', 'MP(Oxy)')
+- ('Điểm', 'có', 'Tính đối xứng')
+- ('Điểm', 'nối thành', 'Đồ thị hàm số \( y = -2x^2 + 20x \)')
+- ('Đồ thị hàm số \( y = -2x^2 + 20x \)', 'vẽ vào', 'Bảng phụ')
+---
+Entities:
+- 'bác Việt': 'người'
+- 'tấm lưới': 'vật thể'
+- 'bờ tường': 'vật thể'
+- 'khu vườn': 'địa điểm'
+- 'mảnh đất': 'vật thể'
+- 'rau': 'thực vật'
+- 'diện tích lớn nhất': 'kết quả'
+- 'đồ thị hàm số bậc hai': 'đồ thị'
+- 'hàm số': 'hàm số'
+- 'đỉnh': 'điểm'
+- 'trục đối xứng': 'đường thẳng'
+- 'parabol': 'đồ thị'
+- 'tọa độ đỉnh': 'tọa độ'
+- 'trục tung': 'trục'
+- 'trục hoành': 'trục'
+- 'giao điểm': 'điểm'
+- 'điểm đặc biệt': 'điểm'
+- 'cách vẽ': 'phương pháp'
+- 'tính chất': 'đặc điểm'
+
+Relationships:
+- ('bác Việt', 'sở hữu', 'tấm lưới')
+- ('tấm lưới', 'có hình dạng', 'hình chữ nhật')
+- ('tấm lưới', 'dài', '20 m')
+- ('tấm lưới', 'được dùng để', 'rào chắn')
+- ('bờ tường', 'là một phần của', 'khu vườn')
+- ('mảnh đất', 'được hình thành từ', 'tấm lưới')
+- ('mảnh đất', 'được dùng để', 'trồng rau')
+- ('mảnh đất', 'có mục tiêu', 'diện tích lớn nhất')
+- ('đồ thị hàm số bậc hai', 'liên quan đến', 'hàm số')
+- ('hàm số', 'có đỉnh', 'đỉnh')
+- ('hàm số', 'có trục đối xứng', 'trục đối xứng')
+- ('hàm số', 'biểu diễn bằng', 'parabol')
+- ('parabol', 'có đỉnh', 'tọa độ đỉnh')
+- ('parabol', 'có trục đối xứng', 'trục đối xứng')
+- ('parabol', 'có giao điểm', 'giao điểm')
+- ('parabol', 'có điểm', 'điểm đặc biệt')
+- ('cách vẽ', 'được áp dụng cho', 'parabol')
+- ('tính chất', 'liên quan đến', 'parabol')
+---
+Entities:
+- 'đồ thị hàm số \( y = ax^2 + bx + c \)': 'hàm số'
+- 'tham số a': 'hệ số'
+- 'tham số b': 'hệ số'
+- 'tham số c': 'hệ số'
+- 'giá trị nhỏ nhất': 'giá trị'
+- 'giá trị lớn nhất': 'giá trị'
+- 'học sinh': 'nhóm'
+- 'giáo viên': 'người'
+- 'diện tích lớn nhất': 'kết quả'
+- 'cọc hàng rào': 'vật thể'
+- 'phiếu học tập số 3': 'tài liệu'
+- 'đồ thị của hàm số \( y = -2x^2 + 20x \)': 'hàm số'
+- 'khoảng đồng biến': 'khoảng'
+- 'khoảng nghịch biến': 'khoảng'
+- 'bbt của hàm số bậc hai': 'tài liệu'
+
+Relationships:
+- ('đồ thị hàm số \( y = ax^2 + bx + c \)', 'có hệ số', 'tham số a')
+- ('đồ thị hàm số \( y = ax^2 + bx + c \)', 'có hệ số', 'tham số b')
+- ('đồ thị hàm số \( y = ax^2 + bx + c \)', 'có hệ số', 'tham số c')
+- ('đồ thị hàm số \( y = ax^2 + bx + c \)', 'có', 'giá trị nhỏ nhất')
+- ('đồ thị hàm số \( y = ax^2 + bx + c \)', 'có', 'giá trị lớn nhất')
+- ('giáo viên', 'triển khai nhiệm vụ cho', 'học sinh')
+- ('học sinh', 'thực hiện', 'nhiệm vụ')
+- ('giáo viên', 'theo dõi', 'học sinh')
+- ('giáo viên', 'hỗ trợ', 'học sinh')
+- ('giáo viên', 'hướng dẫn', 'học sinh')
+- ('học sinh', 'báo cáo kết quả', 'giáo viên')
+- ('học sinh', 'trình bày', 'đồ thị của hàm số \( y = -2x^2 + 20x \)')
+- ('học sinh', 'trình bày', 'khoảng đồng biến')
+- ('học sinh', 'trình bày', 'khoảng nghịch biến')
+- ('giáo viên', 'nhận xét', 'học sinh')
+- ('giáo viên', 'chính xác hóa', 'kiến thức')
+- ('giáo viên', 'giới thiệu', 'bbt của hàm số bậc hai')
+- ('diện tích lớn nhất', 'là', '50 m^2')
+- ('cọc hàng rào', 'cách bờ tưởng', '5 m')
+- ('học sinh', 'thảo luận', 'phiếu học tập số 3')
+---
+Entities:
+- 'bài': 'nhiệm vụ'
+- 'học sinh': 'người'
+- 'giá trị': 'khái niệm'
+- 'bảng': 'công cụ'
+- 'điểm': 'khái niệm'
+- 'hệ trục tọa độ': 'khái niệm'
+- 'đồ thị': 'biểu đồ'
+- 'hàm số': 'hàm số'
+- 'bài toán': 'vấn đề'
+- 'kĩ năng': 'khả năng'
+- 'hàm số bậc hai': 'hàm số'
+- 'tọa độ đỉnh': 'khái niệm'
+- 'trục đối xứng': 'khái niệm'
+- 'giá trị lớn nhất': 'khái niệm'
+- 'giá trị nhỏ nhất': 'khái niệm'
+- 'điều kiện': 'khái niệm'
+- 'phiếu học tập số 4': 'tài liệu'
+- 'nhóm': 'tập thể'
+- 'parabol': 'hình học'
+- 'điểm A': 'điểm'
+- 'điểm B': 'điểm'
+- 'điểm I': 'điểm'
+- 'tung độ đỉnh': 'khái niệm'
+- 'đồ thị hình bên': 'biểu đồ'
+- 'hàm số A': 'hàm số'
+- 'hàm số B': 'hàm số'
+- 'hàm số C': 'hàm số'
+- 'hàm số D': 'hàm số'
+
+Relationships:
+- ('bài', 'phải được nộp', 'đúng thời gian')
+- ('học sinh', 'cần rèn luyện', 'kĩ năng')
+- ('kĩ năng', 'liên quan đến', 'lập bảng giá trị của hàm số bậc hai')
+- ('học sinh', 'chia làm', 'nhóm')
+- ('nhóm', 'làm', 'phiếu học tập số 4')
+- ('nhóm', 'vẽ', 'đồ thị hàm số')
+- ('hàm số', 'có', 'điểm A')
+- ('hàm số', 'có', 'điểm B')
+- ('hàm số', 'có', 'điểm I')
+- ('hàm số', 'có', 'trục đối xứng')
+- ('hàm số', 'có', 'tung độ đỉnh')
+- ('đồ thị hình bên', 'là', 'đồ thị của hàm số A')
+- ('đồ thị hình bên', 'là', 'đồ thị của hàm số B')
+- ('đồ thị hình bên', 'là', 'đồ thị của hàm số C')
+- ('đồ thị hình bên', 'là', 'đồ thị của hàm số D')
+---
+Entities:
+- 'đồ thị': 'khái niệm'
+- 'hàm số': 'khái niệm'
+- 'phương án a': 'phương án'
+- 'phương án b': 'phương án'
+- 'phương án c': 'phương án'
+- 'phương án d': 'phương án'
+- 'đáp án': 'khái niệm'
+- 'quay bê lõm': 'đặc điểm đồ thị'
+- 'đỉnh': 'đặc điểm đồ thị'
+- 'trục đối xứng': 'đặc điểm đồ thị'
+- 'giao điểm với oy': 'đặc điểm đồ thị'
+- 'giao điểm với ox': 'đặc điểm đồ thị'
+- 'giá trị lớn nhất': 'giá trị'
+- 'giá trị nhỏ nhất': 'giá trị'
+- 'latex': 'ngôn ngữ lập trình'
+- 'y = -x^2 - 2x + 3': 'hàm số'
+- 'y = -2x^2 - 4x + 3': 'hàm số'
+- 'y = x^2 - 2x + 3': 'hàm số'
+- 'y = x^2 + 2x + 3': 'hàm số'
+- 'y = -x^2 + 4x - 3': 'hàm số'
+- 'y = x^2 - 6x + 9': 'hàm số'
+- 'y = -x^2 + 2x + 3': 'hàm số'
+- 'x': 'biến số'
+
+Relationships:
+- ('đồ thị', 'thuộc về', 'hàm số')
+- ('hàm số', 'có', 'phương án a')
+- ('hàm số', 'có', 'phương án b')
+- ('hàm số', 'có', 'phương án c')
+- ('hàm số', 'có', 'phương án d')
+- ('đồ thị', 'được mô tả bởi', 'đáp án')
+- ('đồ thị', 'có đặc điểm', 'quay bê lõm')
+- ('đồ thị', 'có đặc điểm', 'đỉnh')
+- ('đồ thị', 'có đặc điểm', 'trục đối xứng')
+- ('đồ thị', 'có đặc điểm', 'giao điểm với oy')
+- ('đồ thị', 'có đặc điểm', 'giao điểm với ox')
+- ('đồ thị', 'có giá trị', 'giá trị lớn nhất')
+- ('đồ thị', 'có giá trị', 'giá trị nhỏ nhất')
+- ('latex', 'biểu diễn', 'hàm số')
+---
+Entities:
+- 'đỉnh': 'điểm'
+- 'trục đối xứng': 'đường thẳng'
+- 'giao điểm với oy': 'điểm'
+- 'giao điểm với ox': 'điểm'
+- 'hàm số': 'khái niệm toán học'
+- 'giáo viên': 'người'
+- 'học sinh': 'người'
+- 'nhóm': 'tập thể'
+- 'bt 6.9': 'bài tập'
+- 'đáp án': 'sản phẩm'
+- 'lời giải': 'sản phẩm'
+- 'bảng nhóm': 'công cụ'
+- 'thảo luận': 'hoạt động'
+- 'kết quả': 'sản phẩm'
+- 'phản biện': 'hoạt động'
+- 'tiêu chí đánh giá': 'đánh giá'
+- 'hoạt động sôi nổi, tích cực': 'tiêu chí'
+- 'nộp bài đúng thời gian': 'tiêu chí'
+- 'hoàn thành đúng các câu hỏi tn pht số 4': 'tiêu chí'
+- 'hoàn thành phần điền khuyết ở pht số 4': 'tiêu chí'
+
+Relationships:
+- ('hàm số', 'có', 'đỉnh')
+- ('hàm số', 'có', 'trục đối xứng')
+- ('hàm số', 'có', 'giao điểm với oy')
+- ('hàm số', 'có', 'giao điểm với ox')
+- ('giáo viên', 'phân nhóm và giao nhiệm vụ cho', 'học sinh')
+- ('giáo viên', 'giao', 'bt 6.9')
+- ('giáo viên', 'điều hành, quan sát, hỗ trợ', 'nhóm')
+- ('giáo viên', 'gọi', 'học sinh')
+- ('học sinh', 'thực hiện', 'bt 6.9')
+- ('nhóm', 'ghi', 'kết quả')
+- ('đại diện nhóm', 'trình bày', 'kết quả thảo luận')
+- ('các nhóm khác', 'đưa ra', 'phản biện')
+- ('giáo viên', 'nhận xét', 'thái độ làm việc')
+- ('giáo viên', 'tuyên dương', 'nhóm học sinh')
+- ('giáo viên', 'sửa chữa', 'bt 6.9')
+- ('giáo viên', 'tuyên dương', 'cá nhân học sinh')
+- ('tiêu chí đánh giá', 'bao gồm', 'hoạt động sôi nổi, tích cực')
+- ('tiêu chí đánh giá', 'bao gồm', 'nộp bài đúng thời gian')
+- ('tiêu chí đánh giá', 'bao gồm', 'hoàn thành đúng các câu hỏi tn pht số 4')
+- ('tiêu chí đánh giá', 'bao gồm', 'hoàn thành phần điền khuyết ở pht số 4')
+---
+Entities:
+- 'hàm số bậc hai': 'hàm số'
+- 'đồ thị': 'đồ thị'
+- 'phần mềm geogebra': 'phần mềm'
+- 'bài toán thực tiễn': 'bài toán'
+- 'vòm cửa lớn': 'vật thể'
+- 'trung tâm văn hoá': 'địa điểm'
+- 'vận động viên bóng rổ': 'người'
+- 'hệ trục tọa độ': 'hệ trục'
+- 'trục hoành ox': 'trục'
+- 'trục tung oy': 'trục'
+- 'điểm o': 'điểm'
+- 'đường cong parabol': 'đường cong'
+- 'y = ax^2': 'phương trình'
+- 'chiều rộng \(d = 8m\)': 'kích thước'
+- 'chiều cao \(h = 8m\)': 'kích thước'
+- 'khoảng 2m': 'khoảng cách'
+- 'cao 1,9m': 'chiều cao'
+
+Relationships:
+- ('hàm số bậc hai', 'liên quan đến', 'đồ thị')
+- ('hàm số bậc hai', 'được vận dụng trong', 'bài toán thực tiễn')
+- ('phần mềm geogebra', 'được sử dụng để', 'vẽ đồ thị')
+- ('vòm cửa lớn', 'thuộc về', 'trung tâm văn hoá')
+- ('vòm cửa lớn', 'có kích thước', 'chiều rộng \(d = 8m\)')
+- ('vòm cửa lớn', 'có kích thước', 'chiều cao \(h = 8m\)')
+- ('vận động viên bóng rổ', 'có chiều cao', 'cao 1,9m')
+- ('vận động viên bóng rổ', 'đứng cách', 'khoảng 2m')
+- ('hệ trục tọa độ', 'gồm', 'trục hoành ox')
+- ('hệ trục tọa độ', 'gồm', 'trục tung oy')
+- ('trục tung oy', 'vuông góc với', 'trục hoành ox')
+- ('trục tung oy', 'đi qua', 'điểm o')
+- ('điểm o', 'là đỉnh của', 'vòm cửa lớn')
+- ('đường cong parabol', 'có phương trình', 'y = ax^2')
+---
+Entities:
+- 'bạn Nam': 'người'
+- 'cầu vượt ba tầng': 'địa điểm'
+- 'nút giao ngã ba Huế': 'địa điểm'
+- 'thành phố Đà Nẵng': 'địa điểm'
+- 'trụ tháp cầu': 'công trình'
+- 'đường parabol': 'hình dạng'
+- 'hệ trục tọa độ Oxy': 'hệ tọa độ'
+- 'đồ thị hàm số': 'hàm số'
+- 'bạn An': 'người'
+- 'bạn Bình': 'người'
+- 'cổng trường Đại học Bách Khoa Hà Nội': 'công trình'
+- 'hàm số dạng \( y = ax^2 + bx \)': 'hàm số'
+- 'chiều cao của trụ tháp': 'kích thước'
+- 'chiều cao của cổng': 'kích thước'
+
+Relationships:
+- ('bạn Nam', 'đứng dưới', 'cầu vượt ba tầng')
+- ('cầu vượt ba tầng', 'nằm tại', 'nút giao ngã ba Huế')
+- ('nút giao ngã ba Huế', 'thuộc', 'thành phố Đà Nẵng')
+- ('trụ tháp cầu', 'có dạng', 'đường parabol')
+- ('trụ tháp cầu', 'được đặt trong', 'hệ trục tọa độ Oxy')
+- ('trụ tháp cầu', 'là một phần của', 'đồ thị hàm số')
+- ('bạn An', 'đọc tài liệu về', 'cổng trường Đại học Bách Khoa Hà Nội')
+- ('cổng trường Đại học Bách Khoa Hà Nội', 'có dạng', 'đường parabol')
+- ('bạn An', 'trao đổi với', 'bạn Bình')
+- ('bạn Bình', 'phản biện', 'bạn An')
+- ('hàm số dạng \( y = ax^2 + bx \)', 'được sử dụng để tính', 'chiều cao của trụ tháp')
+- ('hàm số dạng \( y = ax^2 + bx \)', 'được sử dụng để tính', 'chiều cao của cổng')
+---
+Entities:
+- 'sản phẩm pht số 5': 'sản phẩm'
+- 'nhóm học sinh': 'nhóm'
+- 'sản phẩm hình ảnh': 'sản phẩm'
+- 'nhóm hs': 'nhóm'
+- 'hình ảnh': 'sản phẩm'
+- 'ứng dụng của đường parabol': 'ứng dụng'
+- 'đường parabol': 'đường'
+- 'đài phun nước': 'đối tượng'
+- 'dòng nước': 'đối tượng'
+- 'pháo hoa': 'đối tượng'
+- 'tia sáng': 'đối tượng'
+
+Relationships:
+- ('sản phẩm pht số 5', 'thuộc về', 'nhóm học sinh')
+- ('sản phẩm hình ảnh', 'dự kiến của', 'nhóm hs')
+- ('hình ảnh', 'liên quan đến', 'ứng dụng của đường parabol')
+- ('dòng nước', 'có quỹ đạo là', 'đường parabol')
+- ('đài phun nước', 'tạo ra', 'dòng nước')
+- ('tia sáng', 'có quỹ đạo là', 'đường parabol')
+- ('pháo hoa', 'tạo ra', 'tia sáng')
+---
+Entities:
+- 'cổng trường đại học bách khoa hà nội': 'địa điểm'
+- 'nút giao khác mức ngã ba huế': 'địa điểm'
+- 'nhà thờ phủ cam - huế': 'địa điểm'
+- 'cổng arch': 'địa điểm'
+- 'st. louis, missouri, hoa kỳ': 'địa điểm'
+- 'ăng-ten parabol': 'đối tượng'
+- 'hình parabol': 'hình dạng'
+- 'trụ tháp': 'đối tượng'
+- 'trụ đỡ': 'đối tượng'
+
+Relationships:
+- ('cổng trường đại học bách khoa hà nội', 'có hình dạng', 'hình parabol')
+- ('nút giao khác mức ngã ba huế', 'có', 'trụ tháp')
+- ('trụ tháp', 'có hình dạng', 'hình parabol')
+- ('nhà thờ phủ cam - huế', 'được thiết kế với', 'trụ đỡ')
+- ('trụ đỡ', 'có hình dạng', 'hình parabol')
+- ('cổng arch', 'tại', 'st. louis, missouri, hoa kỳ')
+- ('ăng-ten parabol', 'là', 'ăng-ten chảo')
+---
+Entities:
+- 'bếp parabol': 'vật dụng'
+- 'năng lượng mặt trời': 'nguồn năng lượng'
+- 'nhóm': 'tập thể'
+- 'quá trình vẽ': 'hoạt động'
+- 'kết quả': 'kết quả'
+- 'học sinh': 'người'
+- 'đồ thị hàm số bậc hai': 'hàm số'
+- 'hệ số a': 'hệ số'
+- 'hệ số b': 'hệ số'
+- 'hệ số c': 'hệ số'
+- 'logo': 'hình ảnh'
+- 'đồ thị nhánh 1': 'đồ thị'
+- 'đồ thị nhánh 2': 'đồ thị'
+- 'hàm số f: y = -3x^2': 'hàm số'
+- 'hàm số g: y = -3(x - 1.56)^2': 'hàm số'
+- 'hàm số h: y = -2.2': 'hàm số'
+- 'giao điểm a': 'điểm'
+- 'giao điểm b': 'điểm'
+- 'giao điểm c': 'điểm'
+- 'giao điểm d': 'điểm'
+- 'giao điểm e': 'điểm'
+- 'điều kiện p': 'điều kiện'
+- 'điều kiện q': 'điều kiện'
+
+Relationships:
+- ('bếp parabol', 'sử dụng', 'năng lượng mặt trời')
+- ('nhóm', 'thực hiện', 'quá trình vẽ')
+- ('nhóm', 'gửi kèm', 'kết quả')
+- ('học sinh', 'vẽ', 'đồ thị hàm số bậc hai')
+- ('đồ thị hàm số bậc hai', 'được điều chỉnh bởi', 'hệ số a')
+- ('đồ thị hàm số bậc hai', 'được điều chỉnh bởi', 'hệ số b')
+- ('đồ thị hàm số bậc hai', 'được điều chỉnh bởi', 'hệ số c')
+- ('đồ thị hàm số bậc hai', 'tạo ra', 'một nhánh của logo')
+- ('học sinh', 'sao chép', 'đồ thị nhánh 1')
+- ('đồ thị nhánh 1', 'được di chuyển để tạo ra', 'đồ thị nhánh 2')
+- ('hàm số f', 'có giao điểm', 'giao điểm a')
+- ('hàm số f', 'có giao điểm', 'giao điểm b')
+- ('hàm số f', 'có giao điểm', 'giao điểm c')
+- ('hàm số g', 'có giao điểm', 'giao điểm a')
+- ('hàm số g', 'có giao điểm', 'giao điểm d')
+- ('hàm số g', 'có giao điểm', 'giao điểm e')
+- ('hàm số h', 'có giao điểm', 'giao điểm b')
+- ('hàm số h', 'có giao điểm', 'giao điểm c')
+- ('hàm số h', 'có giao điểm', 'giao điểm d')
+- ('hàm số h', 'có giao điểm', 'giao điểm e')
+- ('điều kiện p', 'liên quan đến', 'hàm số f')
+- ('điều kiện q', 'liên quan đến', 'hàm số g')
+---
+Entities:
+- 'giáo viên': 'người'
+- 'học sinh': 'người'
+- 'nhóm học sinh': 'tập thể'
+- 'bài tập vận dụng': 'nhiệm vụ'
+- 'group lớp': 'nền tảng'
+- 'sản phẩm': 'kết quả'
+- 'phương trình parabol': 'phương trình'
+- 'tọa độ đỉnh': 'tọa độ'
+- 'hệ trục tọa độ': 'hệ thống'
+- 'giá trị x': 'biến số'
+- 'giá trị y': 'biến số'
+- 'chiều cao của vận động viên': 'kích thước'
+- 'vị trí của vận động viên': 'vị trí'
+- 'mép cửa': 'vị trí'
+- 'khoảng cách': 'kích thước'
+
+Relationships:
+- ('giáo viên', 'giao nhiệm vụ cho', 'học sinh')
+- ('học sinh', 'thực hiện', 'bài tập vận dụng')
+- ('giáo viên', 'hướng dẫn', 'học sinh')
+- ('đại diện nhóm', 'trình bày', 'bài tập vận dụng')
+- ('đại diện nhóm', 'gửi ảnh', 'sản phẩm')
+- ('giáo viên', 'nhận xét', 'nhóm học sinh')
+- ('giáo viên', 'đánh giá', 'nhóm học sinh')
+- ('giáo viên', 'tuyên dương', 'nhóm học sinh')
+- ('phương trình parabol', 'được thiết lập bởi', 'giá trị x')
+- ('phương trình parabol', 'được thiết lập bởi', 'giá trị y')
+- ('tọa độ đỉnh', 'được tìm thấy từ', 'hệ trục tọa độ')
+- ('giá trị y', 'so sánh với', 'chiều cao của vận động viên')
+- ('4-x', 'so sánh với', 'vị trí của vận động viên')
+- ('vị trí của vận động viên', 'cách', 'mép cửa')
+- ('khoảng cách', 'được tính từ', 'mép cửa')
+---
+Entities:
+- 'hệ trục tọa độ': 'khái niệm'
+- 'x': 'biến số'
+- 'y': 'biến số'
+- 'phương trình parabol': 'phương trình'
+- 'tọa độ đỉnh': 'tọa độ'
+- 'câu hỏi của bài toán': 'câu hỏi'
+- 'hình ảnh cầu parabol': 'hình ảnh'
+- 'ứng dụng cầu parabol': 'ứng dụng'
+- 'ảnh minh chứng': 'hình ảnh'
+- 'logo': 'sản phẩm'
+- 'công thức latex': 'công thức'
+
+Relationships:
+- ('hệ trục tọa độ', 'liên quan đến', 'x')
+- ('hệ trục tọa độ', 'liên quan đến', 'y')
+- ('phương trình parabol', 'được xác định bởi', 'hệ trục tọa độ')
+- ('tọa độ đỉnh', 'được tìm từ', 'phương trình parabol')
+- ('câu hỏi của bài toán', 'được trả lời bởi', 'tọa độ đỉnh')
+- ('hình ảnh cầu parabol', 'tìm thấy trong', 'cuộc sống')
+- ('ứng dụng cầu parabol', 'tìm thấy trong', 'thực tế')
+- ('ảnh minh chứng', 'chứng minh cho', 'các bước vẽ')
+- ('logo', 'là', 'sản phẩm đúng mẫu')
+---
+Entities:
+- 'bài học': 'Chủ đề'
+- 'đồ thị hàm số bậc hai': 'Chủ đề'
+- 'parabola': 'Đối tượng'
+- 'đỉnh': 'Tính chất'
+- 'trục đối xứng': 'Tính chất'
+- 'hàm số bậc hai': 'Hàm số'
+- 'đồ thị': 'Đối tượng'
+- 'năng lực tư duy và lập luận toán học': 'Năng lực'
+- 'năng lực mô hình hóa toán học': 'Năng lực'
+- 'năng lực giải quyết vấn đề toán học': 'Năng lực'
+- 'năng lực giao tiếp toán học': 'Năng lực'
+- 'năng lực sử dụng công cụ, phương tiện học toán': 'Năng lực'
+- 'ứng dụng CNTT': 'Năng lực'
+- 'hoạt động hình thành kiến thức': 'Hoạt động'
+- 'bài toán thực tiễn': 'Bài toán'
+- 'công nghệ thông tin': 'Công cụ'
+- 'tranh, ảnh': 'Tài liệu'
+- 'giáo viên': 'Người'
+- 'học sinh': 'Người'
+
+Relationships:
+- ('bài học', 'bao gồm', 'đồ thị hàm số bậc hai')
+- ('đồ thị hàm số bậc hai', 'có', 'parabola')
+- ('parabola', 'có tính chất', 'đỉnh')
+- ('parabola', 'có tính chất', 'trục đối xứng')
+- ('hàm số bậc hai', 'được biểu diễn bởi', 'đồ thị')
+- ('bài học', 'phát triển', 'năng lực tư duy và lập luận toán học')
+- ('bài học', 'phát triển', 'năng lực mô hình hóa toán học')
+- ('bài học', 'phát triển', 'năng lực giải quyết vấn đề toán học')
+- ('bài học', 'phát triển', 'năng lực giao tiếp toán học')
+- ('bài học', 'phát triển', 'năng lực sử dụng công cụ, phương tiện học toán')
+- ('bài học', 'phát triển', 'ứng dụng CNTT')
+- ('hoạt động hình thành kiến thức', 'hướng tới', 'năng lực tư duy và lập luận toán học')
+- ('hoạt động hình thành kiến thức', 'hướng tới', 'năng lực mô hình hóa toán học')
+- ('hoạt động hình thành kiến thức', 'hướng tới', 'năng lực giải quyết vấn đề toán học')
+- ('hoạt động hình thành kiến thức', 'hướng tới', 'năng lực giao tiếp toán học')
+- ('hoạt động hình thành kiến thức', 'hướng tới', 'năng lực sử dụng công cụ, phương tiện học toán')
+- ('hoạt động hình thành kiến thức', 'hướng tới', 'ứng dụng CNTT')
+- ('bài toán thực tiễn', 'giải quyết bởi', 'hàm số bậc hai')
+- ('công nghệ thông tin', 'được sử dụng bởi', 'giáo viên')
+- ('công nghệ thông tin', 'được sử dụng bởi', 'học sinh')
+- ('tranh, ảnh', 'được chuẩn bị bởi', 'giáo viên')
+---
+Entities:
+- 'phiếu học tập': 'tài liệu'
+- 'phiếu giao nhiệm vụ': 'tài liệu'
+- 'máy tính': 'thiết bị'
+- 'máy chiếu': 'thiết bị'
+- 'bài soạn': 'tài liệu'
+- 'học sinh': 'người'
+- 'nội dung bài học': 'nội dung'
+- 'dụng cụ đo đạc': 'dụng cụ'
+- 'thước dây': 'dụng cụ'
+- 'cọc': 'dụng cụ'
+- 'bút': 'dụng cụ'
+- 'giấy ghi chép': 'dụng cụ'
+- 'phương pháp dạy học': 'phương pháp'
+- 'dạy học giải quyết vấn đề': 'phương pháp'
+- 'dạy học theo tình huống': 'phương pháp'
+- 'tình huống thực tiễn': 'tình huống'
+- 'hoạt động trải nghiệm sáng tạo': 'hoạt động'
+- 'phương tiện dạy học': 'phương tiện'
+- 'cntt': 'công nghệ'
+- 'tiến trình dạy học': 'tiến trình'
+- 'hoạt động khởi động': 'hoạt động'
+- 'giáo viên': 'người'
+- 'hình ảnh': 'tài liệu'
+- 'bài mới': 'nội dung'
+
+Relationships:
+- ('giáo viên', 'tổ chức', 'học sinh')
+- ('học sinh', 'nghiên cứu', 'nội dung bài học')
+- ('học sinh', 'sử dụng', 'dụng cụ đo đạc')
+- ('dụng cụ đo đạc', 'bao gồm', 'thước dây')
+- ('dụng cụ đo đạc', 'bao gồm', 'cọc')
+- ('dụng cụ đo đạc', 'bao gồm', 'bút')
+- ('dụng cụ đo đạc', 'bao gồm', 'giấy ghi chép')
+- ('phương pháp dạy học', 'bao gồm', 'dạy học giải quyết vấn đề')
+- ('phương pháp dạy học', 'bao gồm', 'dạy học theo tình huống')
+- ('dạy học theo tình huống', 'liên quan đến', 'tình huống thực tiễn')
+- ('phương pháp dạy học', 'bao gồm', 'hoạt động trải nghiệm sáng tạo')
+- ('phương pháp dạy học', 'sử dụng', 'phương tiện dạy học')
+- ('phương tiện dạy học', 'bao gồm', 'cntt')
+- ('tiến trình dạy học', 'bao gồm', 'hoạt động khởi động')
+- ('giáo viên', 'sử dụng', 'hình ảnh')
+- ('hình ảnh', 'liên quan đến', 'bài mới')
+---
+Entities:
+- 'hàm số bậc 2': 'hàm số'
+- 'đồ thị hàm số': 'đồ thị'
+- 'tham số a': 'hệ số'
+- 'tham số b': 'hệ số'
+- 'tham số c': 'hệ số'
+- 'đỉnh': 'đặc điểm đồ thị'
+- 'trục đối xứng': 'đặc điểm đồ thị'
+- 'hướng bề lõm': 'đặc điểm đồ thị'
+- 'chiều biến thiên': 'đặc điểm đồ thị'
+- 'nhóm 1': 'nhóm học sinh'
+- 'nhóm 2': 'nhóm học sinh'
+- 'nhóm 3': 'nhóm học sinh'
+- 'nhóm 4': 'nhóm học sinh'
+- 'giáo viên': 'người'
+- 'học sinh': 'người'
+- 'nhiệm vụ': 'hoạt động'
+- 'bài học': 'hoạt động'
+- 'delta': 'delta'
+
+Relationships:
+- ('hàm số bậc 2', 'có hệ số', 'tham số a')
+- ('hàm số bậc 2', 'có hệ số', 'tham số b')
+- ('hàm số bậc 2', 'có hệ số', 'tham số c')
+- ('hàm số bậc 2', 'có đồ thị', 'đồ thị hàm số')
+- ('đồ thị hàm số', 'có đặc điểm', 'đỉnh')
+- ('đồ thị hàm số', 'có đặc điểm', 'trục đối xứng')
+- ('đồ thị hàm số', 'có đặc điểm', 'hướng bề lõm')
+- ('đồ thị hàm số', 'có đặc điểm', 'chiều biến thiên')
+- ('giáo viên', 'giao', 'nhiệm vụ')
+- ('giáo viên', 'hướng dẫn', 'học sinh')
+- ('nhóm 1', 'trình bày', 'đặc điểm đồ thị')
+- ('nhóm 2', 'trình bày', 'đặc điểm đồ thị')
+- ('nhóm 3', 'biến đổi', 'hàm số bậc 2')
+- ('nhóm 4', 'biến đổi', 'hàm số bậc 2')
+- ('học sinh', 'tham gia', 'bài học')
+- ('delta', 'được tính bởi', 'tham số a')
+- ('delta', 'được tính bởi', 'tham số b')
+- ('delta', 'được tính bởi', 'tham số c')
+---
+Entities:
+- 'hàm số bậc 2': 'hàm số'
+- 'điểm i': 'điểm'
+- 'điểm o': 'điểm'
+- 'parabol \( y=ax^2 \)': 'đồ thị'
+- 'đỉnh': 'đặc điểm đồ thị'
+- 'trục đối xứng': 'đặc điểm đồ thị'
+- 'hình dạng đồ thị': 'đặc điểm đồ thị'
+- 'tọa độ đỉnh i': 'tọa độ'
+- 'giao trục tung': 'điểm đặc biệt'
+- 'giao trục hoành': 'điểm đặc biệt'
+- 'hệ số a': 'hệ số'
+- 'hệ số b': 'hệ số'
+- 'hệ số c': 'hệ số'
+- 'đồ thị hàm số \( y = ax^2+bx+c \)': 'đồ thị'
+- 'trục đối xứng \( x = \frac{-b}{2a} \)': 'trục đối xứng'
+- 'khoảng đồng biến': 'khoảng'
+- 'khoảng nghịch biến': 'khoảng'
+
+Relationships:
+- ('hàm số bậc 2', 'có đồ thị', 'đồ thị hàm số \( y = ax^2+bx+c \)')
+- ('điểm i', 'đóng vai trò như', 'điểm o')
+- ('đồ thị hàm số \( y = ax^2+bx+c \)', 'có đặc điểm', 'đỉnh')
+- ('đồ thị hàm số \( y = ax^2+bx+c \)', 'có đặc điểm', 'trục đối xứng')
+- ('đồ thị hàm số \( y = ax^2+bx+c \)', 'có đặc điểm', 'hình dạng đồ thị')
+- ('trục đối xứng', 'là', 'trục đối xứng \( x = \frac{-b}{2a} \)')
+- ('hàm số bậc 2', 'có hệ số', 'hệ số a')
+- ('hàm số bậc 2', 'có hệ số', 'hệ số b')
+- ('hàm số bậc 2', 'có hệ số', 'hệ số c')
+- ('hàm số bậc 2', 'có điểm đặc biệt', 'giao trục tung')
+- ('hàm số bậc 2', 'có điểm đặc biệt', 'giao trục hoành')
+- ('hàm số bậc 2', 'có khoảng', 'khoảng đồng biến')
+- ('hàm số bậc 2', 'có khoảng', 'khoảng nghịch biến')
+- ('hệ số a', 'ảnh hưởng đến', 'hướng bề lõm của đồ thị')
+---
+Entities:
+- 'hàm số bậc 2': 'hàm số'
+- 'tham số a': 'hệ số'
+- 'tham số b': 'hệ số'
+- 'tham số c': 'hệ số'
+- 'parabol': 'đồ thị'
+- 'bài 1': 'bài tập'
+- 'bài 2': 'bài tập'
+- 'bài 3': 'bài tập'
+- 'hoạt động 4': 'hoạt động'
+- 'tổ chức trò chơi': 'hoạt động'
+- 'câu hỏi': 'nội dung'
+- 'câu 1': 'câu hỏi'
+- 'câu 2': 'câu hỏi'
+- 'câu 3': 'câu hỏi'
+- 'câu 4': 'câu hỏi'
+- 'câu 5': 'câu hỏi'
+- 'giao nhiệm vụ về nhà': 'nhiệm vụ'
+- 'đồ thị': 'khái niệm'
+- 'đài phun nước': 'vật thể'
+- 'ăngten': 'vật thể'
+- 'ăngten chảo parabol': 'vật thể'
+- 'tàu lượn siêu tốc': 'vật thể'
+- 'cây cầu': 'vật thể'
+
+Relationships:
+- ('hàm số bậc 2', 'có hệ số', 'tham số a')
+- ('hàm số bậc 2', 'có hệ số', 'tham số b')
+- ('hàm số bậc 2', 'có hệ số', 'tham số c')
+- ('parabol', 'được xác định bởi', 'hàm số bậc 2')
+- ('bài 1', 'có nội dung', 'câu hỏi')
+- ('bài 2', 'có nội dung', 'câu hỏi')
+- ('bài 3', 'có nội dung', 'câu hỏi')
+- ('hoạt động 4', 'bao gồm', 'tổ chức trò chơi')
+- ('tổ chức trò chơi', 'bao gồm', 'câu hỏi')
+- ('câu 1', 'liên quan đến', 'đài phun nước')
+- ('câu 2', 'liên quan đến', 'ăngten')
+- ('câu 3', 'liên quan đến', 'ăngten chảo parabol')
+- ('câu 4', 'liên quan đến', 'tàu lượn siêu tốc')
+- ('câu 5', 'liên quan đến', 'cây cầu')
+- ('giao nhiệm vụ về nhà', 'bao gồm', 'xem lại cách vẽ đồ thị hàm số')
+- ('giao nhiệm vụ về nhà', 'bao gồm', 'sự biến thiên của hàm số')
+---
+Entities:
+- 'phương trình bậc 2 một ẩn': 'phương trình'
+- 'ẩn x': 'ẩn'
+- 'hệ số a': 'hệ số'
+- 'hệ số b': 'hệ số'
+- 'hệ số c': 'hệ số'
+- 'công thức nghiệm': 'công thức'
+- 'delta': 'delta'
+- 'delta = b^2 - 4ac': 'công thức delta'
+- 'delta < 0': 'điều kiện'
+- 'delta = 0': 'điều kiện'
+- 'delta > 0': 'điều kiện'
+- 'delta\' = b\'^2 - ac': 'công thức delta\''
+- 'delta\' < 0': 'điều kiện'
+- 'delta\' = 0': 'điều kiện'
+- 'delta\' > 0': 'điều kiện'
+- 'vô nghiệm': 'kết quả'
+- 'nghiệm kép': 'kết quả'
+- 'hai nghiệm phân biệt': 'kết quả'
+- 'trịnh bình': 'tác giả'
+- 'tài liệu toán học': 'tài liệu'
+
+Relationships:
+- ('phương trình bậc 2 một ẩn', 'có ẩn', 'ẩn x')
+- ('phương trình bậc 2 một ẩn', 'có hệ số', 'hệ số a')
+- ('phương trình bậc 2 một ẩn', 'có hệ số', 'hệ số b')
+- ('phương trình bậc 2 một ẩn', 'có hệ số', 'hệ số c')
+- ('phương trình bậc 2 một ẩn', 'giải bằng', 'công thức nghiệm')
+- ('delta', 'được định nghĩa bởi', 'delta = b^2 - 4ac')
+- ('delta', 'được tính bởi', 'hệ số a')
+- ('delta', 'được tính bởi', 'hệ số b')
+- ('delta', 'được tính bởi', 'hệ số c')
+- ('delta', 'có giá trị', 'delta < 0')
+- ('delta', 'có giá trị', 'delta = 0')
+- ('delta', 'có giá trị', 'delta > 0')
+- ('delta < 0', 'dẫn đến', 'vô nghiệm')
+- ('delta = 0', 'dẫn đến', 'nghiệm kép')
+- ('delta > 0', 'dẫn đến', 'hai nghiệm phân biệt')
+- ('phương trình bậc 2 một ẩn', 'có delta\'', 'delta\' = b\'^2 - ac')
+- ('delta\'', 'có giá trị', 'delta\' < 0')
+- ('delta\'', 'có giá trị', 'delta\' = 0')
+- ('delta\'', 'có giá trị', 'delta\' > 0')
+- ('delta\' < 0', 'dẫn đến', 'vô nghiệm')
+- ('delta\' = 0', 'dẫn đến', 'nghiệm kép')
+- ('delta\' > 0', 'dẫn đến', 'hai nghiệm phân biệt')
+- ('trịnh bình', 'sưu tầm và tổng hợp', 'tài liệu toán học')
+---
+Entities:
+- 'phương trình bậc 2': 'phương trình'
+- 'ax^2 + bx + c = 0': 'dạng phương trình'
+- 'a': 'hệ số'
+- 'b': 'hệ số'
+- 'c': 'hệ số'
+- 'a + b + c = 0': 'điều kiện'
+- 'a - b + c = 0': 'điều kiện'
+- 'x_1 = 1': 'nghiệm'
+- 'x_2 = c/a': 'nghiệm'
+- 'x_1 = -1': 'nghiệm'
+- 'x_2 = -c/a': 'nghiệm'
+- 'm': 'tham số'
+- 'x^2 + 4x - 3 = 0': 'phương trình'
+- '\(\delta'\)': 'delta'
+- 'x_1 = -2 + \sqrt{7}': 'nghiệm'
+- 'x_2 = -2 - \sqrt{7}': 'nghiệm'
+- '0 \neq m < 9/2': 'điều kiện'
+- 'm = 0': 'điều kiện'
+- 'm = 9/2': 'điều kiện'
+- '6x - 4 = 0': 'phương trình'
+- 'x = 2/3': 'nghiệm'
+- 'Trịnh Bình': 'người sưu tầm'
+- 'tài liệu toán học': 'tài liệu'
+
+Relationships:
+- ('phương trình bậc 2', 'có hệ số', 'a')
+- ('phương trình bậc 2', 'có hệ số', 'b')
+- ('phương trình bậc 2', 'có hệ số', 'c')
+- ('phương trình bậc 2', 'có dạng', 'ax^2 + bx + c = 0')
+- ('a + b + c = 0', 'dẫn đến', 'x_1 = 1')
+- ('a + b + c = 0', 'dẫn đến', 'x_2 = c/a')
+- ('a - b + c = 0', 'dẫn đến', 'x_1 = -1')
+- ('a - b + c = 0', 'dẫn đến', 'x_2 = -c/a')
+- ('phương trình', 'có nghiệm', 'x_1 = -2 + \sqrt{7}')
+- ('phương trình', 'có nghiệm', 'x_2 = -2 - \sqrt{7}')
+- ('\(\delta'\)', 'được tính bởi', 'x^2 + 4x - 3 = 0')
+- ('0 \neq m < 9/2', 'là điều kiện để', 'phương trình có hai nghiệm phân biệt')
+- ('m = 0', 'dẫn đến', 'phương trình bậc nhất')
+- ('m = 9/2', 'dẫn đến', 'phương trình có nghiệm kép')
+- ('Trịnh Bình', 'sưu tầm', 'tài liệu toán học')
+---
+Entities:
+- 'hàm số bậc hai': 'hàm số'
+- 'độ cao $h$': 'biến số'
+- 'thời gian $t$': 'biến số'
+- 'quả bóng': 'vật thể'
+- 'mặt đất': 'vị trí'
+- 'đồ thị': 'đồ thị'
+- 'quỹ đạo': 'đường đi'
+- 'công thức hàm số': 'công thức'
+- 'điểm $(x_0; y_0)$': 'điểm'
+- 'đường thẳng $t = 2$': 'trục đối xứng'
+- 'cung parabol': 'đường cong'
+- 'điểm xuất phát': 'vị trí'
+- 'điểm chạm đất': 'vị trí'
+- 'hệ số $a$': 'hệ số'
+- 'hệ số $b$': 'hệ số'
+- 'hệ số $c$': 'hệ số'
+- 'phương trình $f(t) = -2t^2 + 8t$': 'phương trình'
+- 'giá trị $h = 0$': 'điều kiện'
+- 'giá trị $h = 6$': 'kết quả'
+- 'giá trị $h = 8$': 'kết quả'
+- 'giá trị $t = 4$': 'kết quả'
+- 'giá trị $t = 2$': 'kết quả'
+- 'bảng giá trị': 'bảng'
+
+Relationships:
+- ('hàm số bậc hai', 'biểu thị', 'độ cao $h$')
+- ('độ cao $h$', 'phụ thuộc vào', 'thời gian $t$')
+- ('quả bóng', 'được đá lên từ', 'mặt đất')
+- ('đồ thị', 'trùng với', 'quỹ đạo')
+- ('hàm số bậc hai', 'có công thức', 'phương trình $f(t) = -2t^2 + 8t$')
+- ('quả bóng', 'lên đến vị trí cao nhất', 'giá trị $h = 8$')
+- ('quả bóng', 'chạm đất tại', 'giá trị $t = 4$')
+- ('quả bóng', 'có độ cao', 'giá trị $h = 6$')
+- ('cung parabol', 'có trục đối xứng', 'đường thẳng $t = 2$')
+- ('điểm xuất phát', 'đối xứng với', 'điểm chạm đất')
+- ('hệ số $a$', 'là', '-2')
+- ('hệ số $b$', 'là', '8')
+- ('hệ số $c$', 'là', '0')
+- ('phương trình $f(t) = -2t^2 + 8t$', 'thỏa mãn', 'giá trị $h = 0$')
+---
+Entities:
+- 'đồ thị hàm số': 'đồ thị'
+- 'hàm số bậc hai': 'hàm số'
+- 'tọa độ đỉnh': 'tọa độ'
+- 'khoảng đồng biến': 'khoảng'
+- 'khoảng nghịch biến': 'khoảng'
+- 'giá trị lớn nhất': 'giá trị'
+- 'giá trị nhỏ nhất': 'giá trị'
+- 'tập xác định': 'tập'
+- 'tập giá trị': 'tập'
+- 'hàm số y = f(x)': 'hàm số'
+- 'hàm số y = g(x)': 'hàm số'
+- 'Nguyễn Bảo Vương': 'người'
+- 'https://www.nbv.edu.vn/': 'URL'
+- 'https://www.facebook.com/tracnghiemtoanhpt489/': 'URL'
+
+Relationships:
+- ('đồ thị hàm số', 'có', 'tọa độ đỉnh')
+- ('đồ thị hàm số', 'có', 'khoảng đồng biến')
+- ('đồ thị hàm số', 'có', 'khoảng nghịch biến')
+- ('đồ thị hàm số', 'có', 'giá trị lớn nhất')
+- ('đồ thị hàm số', 'có', 'giá trị nhỏ nhất')
+- ('đồ thị hàm số', 'có', 'tập xác định')
+- ('đồ thị hàm số', 'có', 'tập giá trị')
+- ('hàm số y = f(x)', 'có', 'tọa độ đỉnh')
+- ('hàm số y = f(x)', 'có', 'khoảng đồng biến')
+- ('hàm số y = f(x)', 'có', 'khoảng nghịch biến')
+- ('hàm số y = f(x)', 'có', 'giá trị lớn nhất')
+- ('hàm số y = f(x)', 'có', 'tập xác định')
+- ('hàm số y = f(x)', 'có', 'tập giá trị')
+- ('hàm số y = g(x)', 'có', 'tọa độ đỉnh')
+- ('hàm số y = g(x)', 'có', 'khoảng đồng biến')
+- ('hàm số y = g(x)', 'có', 'khoảng nghịch biến')
+- ('hàm số y = g(x)', 'có', 'giá trị nhỏ nhất')
+- ('hàm số y = g(x)', 'có', 'tập xác định')
+- ('hàm số y = g(x)', 'có', 'tập giá trị')
+- ('Nguyễn Bảo Vương', 'liên kết với', 'https://www.nbv.edu.vn/')
+- ('Nguyễn Bảo Vương', 'liên kết với', 'https://www.facebook.com/tracnghiemtoanhpt489/')
+---
+Entities:
+- 'hàm số bậc hai': 'hàm số'
+- 'hàm số không phải bậc hai': 'hàm số'
+- 'hàm số \( y = 2x^2 + x \)': 'hàm số'
+- 'hàm số \( y = -3x^2 - 1 \)': 'hàm số'
+- 'hàm số \( y = x^3 + x + 1 \)': 'hàm số'
+- 'hàm số \( y = \frac{x+1}{x+2} \)': 'hàm số'
+- 'hàm số \( y = \sqrt{5} - 2x \)': 'hàm số'
+- 'hàm số \( y = 9x^2 + 5x + 4 \)': 'hàm số'
+- 'hàm số \( y = 3x^3 + 2x + 1 \)': 'hàm số'
+- 'hàm số \( y = 4(x + 2)^2 + 2(2x^2 + 1) + x + 4 \)': 'hàm số'
+- 'hàm số \( y = 5x^2 + \sqrt{x} + 2 \)': 'hàm số'
+- 'hàm số \( y = 3x^2 + x - \sqrt{3} \)': 'hàm số'
+- 'hàm số \( y = x^2 + |x + 1| \)': 'hàm số'
+- 'hàm số \( y = \begin{cases} x^2 + 1 & \text{với } x \geq 0 \\ -2x^2 - x & \text{với } x < 0\end{cases} \)': 'hàm số'
+- 'hàm số \( y = 2(x^2 + 1) + 3x - 1 \)': 'hàm số'
+- 'hàm số \( y = -3x^2 \)': 'hàm số'
+- 'hàm số \( y = 2x(x^2 - 6x + 1) \)': 'hàm số'
+- 'hàm số \( y = 4x(2x - 5) \)': 'hàm số'
+- 'hệ số a': 'hệ số'
+- 'hệ số b': 'hệ số'
+- 'hệ số c': 'hệ số'
+- 'Nguyễn Vương': 'người'
+- '0946798489': 'số điện thoại'
+- 'facebook nguyễn vương': 'tài khoản mạng xã hội'
+- 'https://www.facebook.com/phong.baovuong': 'đường dẫn'
+
+Relationships:
+- ('hàm số \( y = 2x^2 + x \)', 'là', 'hàm số bậc hai')
+- ('hàm số \( y = -3x^2 - 1 \)', 'là', 'hàm số bậc hai')
+- ('hàm số \( y = x^3 + x + 1 \)', 'là', 'hàm số không phải bậc hai')
+- ('hàm số \( y = \frac{x+1}{x+2} \)', 'là', 'hàm số không phải bậc hai')
+- ('hàm số \( y = \sqrt{5} - 2x \)', 'là', 'hàm số không phải bậc hai')
+- ('hàm số \( y = 9x^2 + 5x + 4 \)', 'là', 'hàm số bậc hai')
+- ('hàm số \( y = 9x^2 + 5x + 4 \)', 'có hệ số', 'hệ số a')
+- ('hàm số \( y = 9x^2 + 5x + 4 \)', 'có hệ số', 'hệ số b')
+- ('hàm số \( y = 9x^2 + 5x + 4 \)', 'có hệ số', 'hệ số c')
+- ('hàm số \( y = 3x^3 + 2x + 1 \)', 'là', 'hàm số không phải bậc hai')
+- ('hàm số \( y = 4(x + 2)^2 + 2(2x^2 + 1) + x + 4 \)', 'là', 'hàm số không phải bậc hai')
+- ('hàm số \( y = 5x^2 + \sqrt{x} + 2 \)', 'là', 'hàm số không phải bậc hai')
+- ('hàm số \( y = 3x^2 + x - \sqrt{3} \)', 'là', 'hàm số bậc hai')
+- ('hàm số \( y = x^2 + |x + 1| \)', 'là', 'hàm số không phải bậc hai')
+- ('hàm số \( y = \begin{cases} x^2 + 1 & \text{với } x \geq 0 \\ -2x^2 - x & \text{với } x < 0\end{cases} \)', 'là', 'hàm số không phải bậc hai')
+- ('hàm số \( y = 2(x^2 + 1) + 3x - 1 \)', 'là', 'hàm số bậc hai')
+- ('hàm số \( y = -3x^2 \)', 'là', 'hàm số bậc hai')
+- ('hàm số \( y = -3x^2 \)', 'có hệ số', 'hệ số a')
+- ('hàm số \( y = -3x^2 \)', 'có hệ số', 'hệ số b')
+- ('hàm số \( y = -3x^2 \)', 'có hệ số', 'hệ số c')
+- ('hàm số \( y = 2x(x^2 - 6x + 1) \)', 'là', 'hàm số không phải bậc hai')
+- ('hàm số \( y = 4x(2x - 5) \)', 'là', 'hàm số không phải bậc hai')
+- ('Nguyễn Vương', 'có số điện thoại', '0946798489')
+- ('Nguyễn Vương', 'có tài khoản', 'facebook nguyễn vương')
+- ('facebook nguyễn vương', 'liên kết đến', 'https://www.facebook.com/phong.baovuong')
+---
+Entities:
+- 'Nguyễn Bảo Vương': 'Người'
+- 'hàm số bậc hai': 'Hàm số'
+- 'hệ số a': 'Hệ số'
+- 'hệ số b': 'Hệ số'
+- 'hệ số c': 'Hệ số'
+- 'công ty': 'Tổ chức'
+- 'sản phẩm': 'Sản phẩm'
+- 'đại lí bán lẻ': 'Đối tượng'
+- 'hàm giá bán': 'Hàm số'
+- 'hàm doanh thu': 'Hàm số'
+- 'điều kiện m': 'Điều kiện'
+- 'fanpage Nguyễn Bảo Vương': 'Trang mạng xã hội'
+
+Relationships:
+- ('hàm số bậc hai', 'có hệ số', 'hệ số a')
+- ('hàm số bậc hai', 'có hệ số', 'hệ số b')
+- ('hàm số bậc hai', 'có hệ số', 'hệ số c')
+- ('công ty', 'sản xuất', 'sản phẩm')
+- ('công ty', 'bán cho', 'đại lí bán lẻ')
+- ('công ty', 'đưa ra', 'hàm giá bán')
+- ('hàm giá bán', 'dẫn đến', 'hàm doanh thu')
+- ('hàm số', 'có điều kiện', 'điều kiện m')
+- ('Nguyễn Bảo Vương', 'có', 'fanpage Nguyễn Bảo Vương')
+---
+Entities:
+- 'hàm số': 'khái niệm'
+- 'y = f(x) = -3x^2 + 2x - 2': 'hàm số'
+- 'y = f(x) = \frac{1}{4}x^2 - x': 'hàm số'
+- 'y = f(x) = -2x^2 - 4x + 7': 'hàm số'
+- 'y = f(x) = x^2 - 6x + 1': 'hàm số'
+- 'a = -3': 'hệ số'
+- 'a = \frac{1}{4}': 'hệ số'
+- 'a = -2': 'hệ số'
+- 'x_s = \frac{-b}{2a}': 'công thức tính tọa độ đỉnh'
+- 'bảng biến thiên': 'công cụ'
+- 'khoảng biến thiên': 'thuộc tính'
+- 'tập giá trị': 'thuộc tính'
+- 'đồng biến': 'đặc điểm'
+- 'nghịch biến': 'đặc điểm'
+- 's(-1;9)': 'tọa độ đỉnh'
+- 'facebook nguyễn vương': 'tài khoản mạng xã hội'
+- 'https://www.facebook.com/phong.baovuong': 'URL'
+
+Relationships:
+- ('hàm số', 'được định nghĩa bởi', 'y = f(x) = -3x^2 + 2x - 2')
+- ('hàm số', 'được định nghĩa bởi', 'y = f(x) = \frac{1}{4}x^2 - x')
+- ('hàm số', 'được định nghĩa bởi', 'y = f(x) = -2x^2 - 4x + 7')
+- ('hàm số', 'được định nghĩa bởi', 'y = f(x) = x^2 - 6x + 1')
+- ('hàm số', 'có hệ số', 'a = -3')
+- ('hàm số', 'có hệ số', 'a = \frac{1}{4}')
+- ('hàm số', 'có hệ số', 'a = -2')
+- ('hàm số', 'có tọa độ đỉnh', 's(-1;9)')
+- ('hàm số', 'có thuộc tính', 'khoảng biến thiên')
+- ('hàm số', 'có thuộc tính', 'tập giá trị')
+- ('hàm số', 'có đặc điểm', 'đồng biến')
+- ('hàm số', 'có đặc điểm', 'nghịch biến')
+- ('công thức tính tọa độ đỉnh', 'được sử dụng trong', 'bảng biến thiên')
+- ('facebook nguyễn vương', 'liên kết với', 'https://www.facebook.com/phong.baovuong')
+---
+Entities:
+- 'hàm số': 'hàm số'
+- 'parabola': 'đồ thị'
+- 'đỉnh s(3;-8)': 'đỉnh'
+- 'đỉnh s(2; -1)': 'đỉnh'
+- 'giá trị lớn nhất': 'giá trị'
+- 'tập xác định': 'tập xác định'
+- 'tập giá trị': 'tập giá trị'
+- 'khoảng đồng biến': 'khoảng'
+- 'khoảng nghịch biến': 'khoảng'
+- 'nguyễn bảo vương': 'tác giả'
+- 'fanpage nguyễn bảo vương': 'fanpage'
+- 'blog nguyễn bảo vương': 'blog'
+
+Relationships:
+- ('hàm số', 'có đồ thị', 'parabola')
+- ('hàm số', 'có đỉnh', 'đỉnh s(3;-8)')
+- ('hàm số', 'có đỉnh', 'đỉnh s(2; -1)')
+- ('hàm số', 'có giá trị lớn nhất', 'giá trị lớn nhất')
+- ('hàm số', 'có tập xác định', 'tập xác định')
+- ('hàm số', 'có tập giá trị', 'tập giá trị')
+- ('hàm số', 'có khoảng', 'khoảng đồng biến')
+- ('hàm số', 'có khoảng', 'khoảng nghịch biến')
+- ('nguyễn bảo vương', 'có blog', 'blog nguyễn bảo vương')
+- ('nguyễn bảo vương', 'có fanpage', 'fanpage nguyễn bảo vương')
+---
+Entities:
+- 'hàm số bậc 2': 'hàm số'
+- 'tham số a': 'hệ số'
+- 'tham số b': 'hệ số'
+- 'tham số c': 'hệ số'
+- 'khoảng đồng biến': 'khoảng'
+- 'khoảng nghịch biến': 'khoảng'
+- 'parabol': 'đồ thị'
+- 'trục đối xứng': 'đường thẳng'
+- 'giao điểm với trục tung': 'điểm'
+- 'giao điểm với trục hoành': 'điểm'
+- 'đỉnh': 'điểm'
+- 'bề lõm quay lên trên': 'đặc tính'
+- 'bề lõm quay xuống dưới': 'đặc tính'
+- 'giá trị lớn nhất': 'giá trị'
+- 'facebook nguyễn vương': 'tài khoản mạng xã hội'
+
+Relationships:
+- ('hàm số bậc 2', 'có hệ số', 'tham số a')
+- ('hàm số bậc 2', 'có hệ số', 'tham số b')
+- ('hàm số bậc 2', 'có hệ số', 'tham số c')
+- ('hàm số bậc 2', 'có đồ thị', 'parabol')
+- ('parabol', 'có trục đối xứng', 'trục đối xứng')
+- ('parabol', 'có điểm', 'giao điểm với trục tung')
+- ('parabol', 'có điểm', 'giao điểm với trục hoành')
+- ('parabol', 'có điểm', 'đỉnh')
+- ('parabol', 'có đặc tính', 'bề lõm quay lên trên')
+- ('parabol', 'có đặc tính', 'bề lõm quay xuống dưới')
+- ('hàm số bậc 2', 'có khoảng', 'khoảng đồng biến')
+- ('hàm số bậc 2', 'có khoảng', 'khoảng nghịch biến')
+- ('hàm số bậc 2', 'có giá trị', 'giá trị lớn nhất')
+- ('facebook nguyễn vương', 'liên kết tới', 'https://www.facebook.com/phong.baovuongtrang')
+---
+Entities:
+- 'hàm số \( y = -2x^2 - 2x + 4 \)': 'hàm số'
+- 'hàm số \( y = x^2 - 3x + 2 \)': 'hàm số'
+- 'hàm số \( y = -2x^2 + 2x + 3 \)': 'hàm số'
+- 'hàm số \( y = x^2 + 2x + 1 \)': 'hàm số'
+- 'hàm số \( y = -x^2 + x - 1 \)': 'hàm số'
+- 'giá trị lớn nhất \( y = \frac{9}{2} \)': 'giá trị lớn nhất'
+- 'điều kiện \( x = -\frac{1}{2} \)': 'điều kiện'
+- 'khoảng đồng biến \((- \infty; -\frac{1}{2})\)': 'khoảng đồng biến'
+- 'khoảng nghịch biến \((- \frac{1}{2}; +\infty)\)': 'khoảng nghịch biến'
+- 'fanpage Nguyễn Bảo Vương': 'fanpage'
+- 'https://www.facebook.com/tracnghiemtoanthpt489/': 'URL'
+
+Relationships:
+- ('hàm số \( y = -2x^2 - 2x + 4 \)', 'đồng biến trên', 'khoảng đồng biến \((- \infty; -\frac{1}{2})\)')
+- ('hàm số \( y = -2x^2 - 2x + 4 \)', 'nghịch biến trên', 'khoảng nghịch biến \((- \frac{1}{2}; +\infty)\)')
+- ('hàm số \( y = -2x^2 - 2x + 4 \)', 'có giá trị lớn nhất', 'giá trị lớn nhất \( y = \frac{9}{2} \)')
+- ('giá trị lớn nhất \( y = \frac{9}{2} \)', 'khi', 'điều kiện \( x = -\frac{1}{2} \)')
+- ('fanpage Nguyễn Bảo Vương', 'liên kết đến', 'https://www.facebook.com/tracnghiemtoanthpt489/')
+---
+Entities:
+- 'hàm số bậc hai': 'hàm số'
+- 'hàm số y = 2x^2 + 4x - 6': 'hàm số'
+- 'hàm số y = -x^2 - 2': 'hàm số'
+- 'hàm số y = f(x) = -x^2 - x + 1': 'hàm số'
+- 'hàm số y = g(x) = x^2 - 8x + 8': 'hàm số'
+- 'đỉnh I(-1;-8)': 'điểm'
+- 'đỉnh I(0;-2)': 'điểm'
+- 'trục đối xứng x = -1': 'trục đối xứng'
+- 'trục đối xứng x = 0': 'trục đối xứng'
+- 'giao điểm với oy (0;-6)': 'giao điểm'
+- 'giao điểm với oy (0;-2)': 'giao điểm'
+- 'giao điểm với ox (-3;0)': 'giao điểm'
+- 'giao điểm với ox (1;0)': 'giao điểm'
+- 'điểm (2;-6)': 'điểm'
+- 'điểm đối xứng (-2;-6)': 'điểm'
+- 'Facebook Nguyễn Vương': 'tài khoản'
+- 'https://www.facebook.com/phong.baovuong': 'URL'
+- 'điện thoại 0946798489': 'số điện thoại'
+
+Relationships:
+- ('hàm số y = 2x^2 + 4x - 6', 'có đỉnh', 'đỉnh I(-1;-8)')
+- ('hàm số y = 2x^2 + 4x - 6', 'có trục đối xứng', 'trục đối xứng x = -1')
+- ('hàm số y = 2x^2 + 4x - 6', 'có giao điểm với oy', 'giao điểm với oy (0;-6)')
+- ('hàm số y = 2x^2 + 4x - 6', 'có giao điểm với ox', 'giao điểm với ox (-3;0)')
+- ('hàm số y = 2x^2 + 4x - 6', 'có giao điểm với ox', 'giao điểm với ox (1;0)')
+- ('điểm (0;-6)', 'đối xứng qua trục đối xứng x = -1', 'điểm đối xứng (-2;-6)')
+- ('hàm số y = -x^2 - 2', 'có đỉnh', 'đỉnh I(0;-2)')
+- ('hàm số y = -x^2 - 2', 'có trục đối xứng', 'trục đối xứng x = 0')
+- ('hàm số y = -x^2 - 2', 'có giao điểm với oy', 'giao điểm với oy (0;-2)')
+- ('hàm số y = -x^2 - 2', 'có điểm thuộc đồ thị', 'điểm (2;-6)')
+- ('điểm (2;-6)', 'đối xứng qua trục đối xứng x = 0', 'điểm đối xứng (-2;-6)')
+- ('Facebook Nguyễn Vương', 'có URL', 'https://www.facebook.com/phong.baovuong')
+- ('Nguyễn Vương', 'có số điện thoại', 'điện thoại 0946798489')
+---
+Entities:
+- 'hàm số \( y = f(x) = -x^2 - x + 1 \)': 'hàm số'
+- 'hàm số \( y = g(x) = x^2 - 8x + 8 \)': 'hàm số'
+- 'parabol quay bề lõm xuống dưới': 'đặc điểm đồ thị'
+- 'parabol quay bề lõm lên trên': 'đặc điểm đồ thị'
+- 'đỉnh \( i \left( -\frac{1}{2}; \frac{5}{4} \right) \)': 'đỉnh parabol'
+- 'đỉnh \( i(4; -8) \)': 'đỉnh parabol'
+- 'trục đối xứng \( x = -\frac{1}{2} \)': 'trục đối xứng'
+- 'trục đối xứng \( x = 4 \)': 'trục đối xứng'
+- 'giao điểm với \( oy \) là (0; 1)': 'giao điểm'
+- 'giao điểm với \( oy \) là (0; 8)': 'giao điểm'
+- 'giao điểm với \( ox \) là \( \left( \frac{-1 - \sqrt{5}}{2}; 0 \right) \)': 'giao điểm'
+- 'giao điểm với \( ox \) là \( \left( \frac{-1 + \sqrt{5}}{2}; 0 \right) \)': 'giao điểm'
+- 'giao điểm với \( ox \) là \( (4 - 2\sqrt{2}; 0) \)': 'giao điểm'
+- 'giao điểm với \( ox \) là \( (4 + 2\sqrt{2}; 0) \)': 'giao điểm'
+- 'điểm đối xứng với điểm (0; 1) qua trục đối xứng \( x = -\frac{1}{2} \)': 'điểm đối xứng'
+- 'điểm đối xứng với điểm (0; 8) qua trục đối xứng \( x = 4 \)': 'điểm đối xứng'
+- 'giá trị lớn nhất của hàm số \( y = f(x) = -x^2 - x + 1 \)': 'giá trị cực đại'
+- 'giá trị nhỏ nhất của hàm số \( y = g(x) = x^2 - 8x + 8 \)': 'giá trị cực tiểu'
+
+Relationships:
+- ('hàm số \( y = f(x) = -x^2 - x + 1 \)', 'có', 'parabol quay bề lõm xuống dưới')
+- ('hàm số \( y = f(x) = -x^2 - x + 1 \)', 'có', 'đỉnh \( i \left( -\frac{1}{2}; \frac{5}{4} \right) \)')
+- ('hàm số \( y = f(x) = -x^2 - x + 1 \)', 'có', 'trục đối xứng \( x = -\frac{1}{2} \)')
+- ('hàm số \( y = f(x) = -x^2 - x + 1 \)', 'có', 'giao điểm với \( oy \) là (0; 1)')
+- ('hàm số \( y = f(x) = -x^2 - x + 1 \)', 'có', 'giao điểm với \( ox \) là \( \left( \frac{-1 - \sqrt{5}}{2}; 0 \right) \)')
+- ('hàm số \( y = f(x) = -x^2 - x + 1 \)', 'có', 'giao điểm với \( ox \) là \( \left( \frac{-1 + \sqrt{5}}{2}; 0 \right) \)')
+- ('hàm số \( y = f(x) = -x^2 - x + 1 \)', 'có', 'điểm đối xứng với điểm (0; 1) qua trục đối xứng \( x = -\frac{1}{2} \)')
+- ('hàm số \( y = f(x) = -x^2 - x + 1 \)', 'có', 'giá trị lớn nhất của hàm số \( y = f(x) = -x^2 - x + 1 \)')
+- ('hàm số \( y = g(x) = x^2 - 8x + 8 \)', 'có', 'parabol quay bề lõm lên trên')
+- ('hàm số \( y = g(x) = x^2 - 8x + 8 \)', 'có', 'đỉnh \( i(4; -8) \)')
+- ('hàm số \( y = g(x) = x^2 - 8x + 8 \)', 'có', 'trục đối xứng \( x = 4 \)')
+- ('hàm số \( y = g(x) = x^2 - 8x + 8 \)', 'có', 'giao điểm với \( oy \) là (0; 8)')
+- ('hàm số \( y = g(x) = x^2 - 8x + 8 \)', 'có', 'giao điểm với \( ox \) là \( (4 - 2\sqrt{2}; 0) \)')
+- ('hàm số \( y = g(x) = x^2 - 8x + 8 \)', 'có', 'giao điểm với \( ox \) là \( (4 + 2\sqrt{2}; 0) \)')
+- ('hàm số \( y = g(x) = x^2 - 8x + 8 \)', 'có', 'điểm đối xứng với điểm (0; 8) qua trục đối xứng \( x = 4 \)')
+- ('hàm số \( y = g(x) = x^2 - 8x + 8 \)', 'có', 'giá trị nhỏ nhất của hàm số \( y = g(x) = x^2 - 8x + 8 \)')
+---
+Entities:
+- 'Hàm số bậc 2': 'Hàm số'
+- 'Tập xác định': 'Khái niệm'
+- 'Tập giá trị': 'Khái niệm'
+- 'Đồ thị': 'Khái niệm'
+- 'Tham số a': 'Hệ số'
+- 'Tham số b': 'Hệ số'
+- 'Tham số c': 'Hệ số'
+- 'Biệt thức (\(\Delta\))': 'Delta'
+- 'Hoành độ đỉnh': 'Khái niệm'
+- 'Trục tung': 'Trục'
+- 'Trục hoành': 'Trục'
+- 'Nghiệm phân biệt': 'Kết quả'
+- 'Điểm phân biệt': 'Khái niệm'
+- 'Facebook Nguyễn Vương': 'Tài khoản mạng xã hội'
+- 'Công thức tính delta': 'Công thức'
+- '(\(\Delta > 0\))': 'Điều kiện'
+- '(\(\Delta = 0\))': 'Điều kiện'
+- '(\(\Delta < 0\))': 'Điều kiện'
+- 'Có 2 nghiệm thực': 'Kết quả'
+- 'Có 1 nghiệm thực': 'Kết quả'
+- 'Không có nghiệm thực': 'Kết quả'
+
+Relationships:
+- ('Hàm số bậc 2', 'có hệ số', 'Tham số a')
+- ('Hàm số bậc 2', 'có hệ số', 'Tham số b')
+- ('Hàm số bậc 2', 'có hệ số', 'Tham số c')
+- ('Hàm số bậc 2', 'có delta', 'Biệt thức (\(\Delta\))')
+- ('Biệt thức (\(\Delta\))', 'được định nghĩa bởi', 'Công thức tính delta')
+- ('Biệt thức (\(\Delta\))', 'được tính bởi', 'Tham số a')
+- ('Biệt thức (\(\Delta\))', 'được tính bởi', 'Tham số b')
+- ('Biệt thức (\(\Delta\))', 'được tính bởi', 'Tham số c')
+- ('Biệt thức (\(\Delta\))', 'có giá trị', '(\(\Delta > 0\))')
+- ('Biệt thức (\(\Delta\))', 'có giá trị', '(\(\Delta = 0\))')
+- ('Biệt thức (\(\Delta\))', 'có giá trị', '(\(\Delta < 0\))')
+- ('(\(\Delta > 0\))', 'dẫn đến', 'Có 2 nghiệm thực')
+- ('(\(\Delta = 0\))', 'dẫn đến', 'Có 1 nghiệm thực')
+- ('(\(\Delta < 0\))', 'dẫn đến', 'Không có nghiệm thực')
+- ('Đồ thị', 'cắt', 'Trục tung')
+- ('Đồ thị', 'cắt', 'Trục hoành')
+- ('Đồ thị', 'có', 'Hoành độ đỉnh')
+- ('Hàm số bậc 2', 'có', 'Tập xác định')
+- ('Hàm số bậc 2', 'có', 'Tập giá trị')
+- ('Facebook Nguyễn Vương', 'liên kết', 'https://www.facebook.com/phong.baovuong')
+---
+Entities:
+- 'tạp chí khoa học đhsp tp hcm': 'Tạp chí'
+- 'sinh viên sư phạm toán': 'Đối tượng'
+- 'nguyễn chiến thắng': 'Tác giả'
+- 'trường đại học sư phạm': 'Tổ chức'
+- 'toán sơ cấp': 'Môn học'
+- 'kỹ năng biến đổi thông tin': 'Kỹ năng'
+- 'phương thức rèn luyện': 'Phương pháp'
+- 'môi trường sư phạm': 'Môi trường'
+- 'bài toán': 'Khái niệm'
+- 'nội dung ngữ nghĩa': 'Khía cạnh'
+- 'cú pháp': 'Khía cạnh'
+- 'thuyết phát sinh nhận thức': 'Lý thuyết'
+- 'hoạt động nhận thức': 'Hoạt động'
+- 'tổ chức thông tin': 'Quá trình'
+- 'thông tin': 'Yếu tố'
+- 'đối tượng': 'Khái niệm'
+- 'biến cố': 'Khái niệm'
+- 'tri thức': 'Khái niệm'
+
+Relationships:
+- ('nguyễn chiến thắng', 'viết', 'bài báo')
+- ('bài báo', 'được xuất bản trên', 'tạp chí khoa học đhsp tp hcm')
+- ('bài báo', 'phân tích', 'vai trò của toán sơ cấp')
+- ('bài báo', 'tìm hiểu', 'kỹ năng biến đổi thông tin')
+- ('bài báo', 'đề xuất', 'phương thức rèn luyện')
+- ('phương thức rèn luyện', 'nhằm', 'rèn luyện kỹ năng cho sinh viên sư phạm toán')
+- ('kỹ năng biến đổi thông tin', 'liên quan đến', 'bài toán')
+- ('thông tin', 'có', 'nội dung ngữ nghĩa')
+- ('thông tin', 'có', 'cú pháp')
+- ('thuyết phát sinh nhận thức', 'liên quan đến', 'hoạt động nhận thức')
+- ('hoạt động nhận thức', 'liên quan đến', 'tổ chức thông tin')
+- ('tổ chức thông tin', 'liên quan đến', 'đối tượng')
+- ('thông tin', 'liên quan đến', 'đối tượng')
+- ('thông tin', 'liên quan đến', 'biến cố')
+- ('thông tin', 'là cơ sở của', 'trao đổi tri thức')
+---
+Entities:
+- 'kiến thức': 'phạm trù'
+- 'quá trình đạt được kiến thức': 'quá trình'
+- 'sự phát triển nhận thức': 'quá trình'
+- 'đồng hóa': 'quá trình'
+- 'điều ứng': 'quá trình'
+- 'cân bằng': 'quá trình'
+- 'sơ đồ': 'cấu trúc'
+- 'thông tin mới': 'dữ liệu'
+- 'chủ thể': 'đối tượng'
+- 'thích nghi': 'quá trình'
+- 'học tập': 'quá trình'
+- 'môi trường': 'bối cảnh'
+- 'kỹ năng biến đổi thông tin': 'kỹ năng'
+- 'sinh viên': 'đối tượng'
+- 'môn toán sơ cấp': 'môn học'
+- 'kiến thức toán phổ thông': 'kiến thức'
+- 'bài toán': 'bài tập'
+- 'thói quen giải bài tập': 'thói quen'
+- 'tư duy': 'khả năng'
+- 'khả năng suy luận logic': 'khả năng'
+- 'năng lực tự học': 'khả năng'
+- 'thái độ phê phán': 'thái độ'
+- 'mối liên hệ giữa toán cao cấp và toán phổ thông': 'mối liên hệ'
+- 'phần mềm toán học': 'công cụ'
+- 'bài toán tìm tòi': 'loại bài toán'
+- 'bài toán chứng minh': 'loại bài toán'
+- 'ẩn số': 'đối tượng'
+- 'kết luận': 'kết quả'
+
+Relationships:
+- ('sự phát triển nhận thức', 'bao gồm', 'đồng hóa')
+- ('sự phát triển nhận thức', 'bao gồm', 'điều ứng')
+- ('sự phát triển nhận thức', 'bao gồm', 'cân bằng')
+- ('đồng hóa', 'liên quan đến', 'sơ đồ')
+- ('điều ứng', 'liên quan đến', 'sơ đồ')
+- ('đồng hóa', 'liên quan đến', 'thông tin mới')
+- ('điều ứng', 'liên quan đến', 'thông tin mới')
+- ('cân bằng', 'liên quan đến', 'đồng hóa')
+- ('cân bằng', 'liên quan đến', 'điều ứng')
+- ('chủ thể', 'thực hiện', 'đồng hóa')
+- ('chủ thể', 'thực hiện', 'điều ứng')
+- ('chủ thể', 'tạo ra', 'cân bằng')
+- ('học tập', 'là', 'thích nghi')
+- ('học tập', 'liên quan đến', 'môi trường')
+- ('kỹ năng biến đổi thông tin', 'liên quan đến', 'sinh viên')
+- ('kỹ năng biến đổi thông tin', 'liên quan đến', 'môn toán sơ cấp')
+- ('sinh viên', 'học', 'môn toán sơ cấp')
+- ('sinh viên', 'có', 'kiến thức toán phổ thông')
+- ('sinh viên', 'phát triển', 'thói quen giải bài tập')
+- ('sinh viên', 'phát triển', 'tư duy')
+- ('sinh viên', 'phát triển', 'khả năng suy luận logic')
+- ('sinh viên', 'phát triển', 'năng lực tự học')
+- ('sinh viên', 'phát triển', 'thái độ phê phán')
+- ('sinh viên', 'khai thác', 'mối liên hệ giữa toán cao cấp và toán phổ thông')
+- ('sinh viên', 'sử dụng', 'phần mềm toán học')
+- ('bài toán', 'phân loại', 'bài toán tìm tòi')
+- ('bài toán', 'phân loại', 'bài toán chứng minh')
+- ('bài toán tìm tòi', 'tìm ra', 'ẩn số')
+- ('bài toán chứng minh', 'xác định', 'kết luận')
+---
+Entities:
+- 'tạp chí khoa học đhsp tp hcm': 'tạp chí'
+- 'số 27 năm 2011': 'số báo'
+- 'phương thức rèn luyện': 'phương pháp'
+- 'sv': 'sinh viên'
+- 'kỹ năng biến đổi thông tin': 'kỹ năng'
+- 'khả năng liên tưởng': 'kỹ năng'
+- 'kỹ năng biến đổi tương đương': 'kỹ năng'
+- 'kỹ năng chuyển hóa từ mô hình này sang mô hình khác': 'kỹ năng'
+- 'kỹ năng thiết lập mối liên hệ giữa toán cao cấp và toán sơ cấp': 'kỹ năng'
+- 'giảng viên': 'người'
+- 'bài toán': 'bài toán'
+- 'phương trình': 'phương trình'
+- 'phương pháp bình phương hai vế': 'phương pháp'
+- 'phương pháp đánh giá': 'phương pháp'
+- 'phương pháp đặt ẩn phụ': 'phương pháp'
+- 'căn thức bậc 2': 'biểu thức'
+- 'hàng đẳng thức': 'biểu thức'
+- 'nhân tử': 'biểu thức'
+- 'phương trình bậc 4': 'phương trình'
+- 'phương trình trùng phương': 'phương trình'
+- 'phương trình đối xứng': 'phương trình'
+
+Relationships:
+- ('tạp chí khoa học đhsp tp hcm', 'xuất bản', 'số 27 năm 2011')
+- ('phương thức rèn luyện', 'cung cấp cho', 'sv')
+- ('phương thức rèn luyện', 'bao gồm', 'khả năng liên tưởng')
+- ('phương thức rèn luyện', 'bao gồm', 'kỹ năng biến đổi tương đương')
+- ('phương thức rèn luyện', 'bao gồm', 'kỹ năng chuyển hóa từ mô hình này sang mô hình khác')
+- ('phương thức rèn luyện', 'bao gồm', 'kỹ năng thiết lập mối liên hệ giữa toán cao cấp và toán sơ cấp')
+- ('giảng viên', 'lựa chọn', 'bài toán')
+- ('bài toán', 'có', 'nhiều cách giải')
+- ('bài toán', 'yêu cầu', 'phân tích đặc điểm')
+- ('bài toán', 'yêu cầu', 'trình bày các hướng dự kiến')
+- ('phương trình', 'có thể giải bằng', 'phương pháp bình phương hai vế')
+- ('phương trình', 'có thể giải bằng', 'phương pháp đánh giá')
+- ('phương trình', 'có thể giải bằng', 'phương pháp đặt ẩn phụ')
+- ('căn thức bậc 2', 'liên quan đến', 'phương pháp đặt ẩn phụ')
+- ('hàng đẳng thức', 'liên quan đến', 'phương trình')
+- ('nhân tử', 'liên quan đến', 'hàng đẳng thức')
+- ('phương trình bậc 4', 'không giải được bằng', 'phương pháp thông thường')
+- ('phương trình bậc 4', 'không có dạng', 'phương trình trùng phương')
+- ('phương trình bậc 4', 'không có dạng', 'phương trình đối xứng')
+---
+Entities:
+- 'kĩ năng biến đổi tương đương': 'kĩ năng'
+- 'phép biến đổi tương đương logic': 'phép biến đổi'
+- 'mệnh đề': 'khái niệm logic'
+- 'phép biến đổi tương đương': 'phép biến đổi'
+- 'a': 'biến số'
+- 'b': 'biến số'
+- 'c': 'biến số'
+- 'b^2-4ac': 'delta'
+- 'a^{2011}(a+b+c)': 'biểu thức'
+- 'phép biến đổi': 'hoạt động'
+- 'quy tắc về logic': 'quy tắc'
+- 'biến đổi tương đương': 'hoạt động'
+- 'giải bài toán': 'hoạt động'
+
+Relationships:
+- ('kĩ năng biến đổi tương đương', 'sử dụng', 'phép biến đổi tương đương logic')
+- ('phép biến đổi tương đương logic', 'liên quan đến', 'mệnh đề')
+- ('phép biến đổi tương đương logic', 'liên quan đến', 'phép biến đổi tương đương')
+- ('a', 'tham gia vào', 'biểu thức')
+- ('b', 'tham gia vào', 'biểu thức')
+- ('c', 'tham gia vào', 'biểu thức')
+- ('delta', 'được tính bởi', 'a')
+- ('delta', 'được tính bởi', 'b')
+- ('delta', 'được tính bởi', 'c')
+- ('phép biến đổi', 'tuân thủ', 'quy tắc về logic')
+- ('phép biến đổi tương đương', 'dùng để', 'giải bài toán')
+---
+Entities:
+- 'bất đẳng thức (1)': 'bất đẳng thức'
+- 'bất đẳng thức (2)': 'bất đẳng thức'
+- 'phương pháp quy nạp': 'phương pháp'
+- 'bài toán tổng quát': 'bài toán'
+- 'x_1, x_2, …, x_n': 'biến số'
+- 'n': 'số nguyên'
+- 'k': 'số nguyên'
+- 'k+1': 'số nguyên'
+- 'giá trị nhỏ nhất của biểu thức p': 'bài toán'
+- 'biểu thức \( x^2 - x + 1 \)': 'biểu thức'
+- 'biểu thức \( x^2 - \sqrt{3} + 1 \)': 'biểu thức'
+- 'căn thức bậc hai': 'căn thức'
+- 'tạp chí khoa học đhsp tp hcm': 'tạp chí'
+- 'số 27 năm 2011': 'số báo'
+- 'rèn luyện kỹ năng chuyển hóa': 'kỹ năng'
+- 'mô hình': 'khái niệm'
+
+Relationships:
+- ('bất đẳng thức (1)', 'liên quan đến', 'bất đẳng thức (2)')
+- ('bất đẳng thức (2)', 'áp dụng', 'phương pháp quy nạp')
+- ('bất đẳng thức (2)', 'đúng với', 'n = 1, 2')
+- ('bất đẳng thức (2)', 'giả sử đúng với', 'n = k')
+- ('bất đẳng thức (2)', 'chứng minh đúng với', 'n = k+1')
+- ('bài toán tổng quát', 'chứng minh', 'bất đẳng thức (1)')
+- ('bài toán tổng quát', 'sử dụng', 'biến số x_1, x_2, …, x_n')
+- ('giá trị nhỏ nhất của biểu thức p', 'liên quan đến', 'biểu thức \( x^2 - x + 1 \)')
+- ('giá trị nhỏ nhất của biểu thức p', 'liên quan đến', 'biểu thức \( x^2 - \sqrt{3} + 1 \)')
+- ('căn thức bậc hai', 'liên quan đến', 'biểu thức \( x^2 - x + 1 \)')
+- ('căn thức bậc hai', 'liên quan đến', 'biểu thức \( x^2 - \sqrt{3} + 1 \)')
+- ('tạp chí khoa học đhsp tp hcm', 'phát hành', 'số 27 năm 2011')
+- ('rèn luyện kỹ năng chuyển hóa', 'liên quan đến', 'mô hình')
+---
+Entities:
+- 'tạp chí khoa học đhsp tp hcm': 'tạp chí'
+- 'nguyễn chiến thắng': 'tác giả'
+- 'điểm a': 'điểm'
+- 'điểm b': 'điểm'
+- 'điểm c': 'điểm'
+- 'điểm o': 'điểm'
+- 'đoạn ac': 'đoạn thẳng'
+- 'tam giác aoc': 'tam giác'
+- 'định lý côsin': 'định lý'
+- 'định lý sin': 'định lý'
+- 'p': 'độ dài'
+- 'x': 'biến số'
+- 'sin 45^0': 'giá trị sin'
+- 'sin 75^0': 'giá trị sin'
+- 'sv': 'sinh viên'
+- 'gv': 'giáo viên'
+- 'toán cao cấp': 'môn học'
+- 'toán phổ thông': 'môn học'
+- 'sgk toán pt': 'sách giáo khoa'
+- 'hàm số': 'khái niệm'
+- 'phép biến hình': 'khái niệm'
+- 'phép toán số học': 'khái niệm'
+- 'ma trận chuyển': 'ma trận'
+- 'phép biến đổi đăng cự': 'phép biến đổi'
+- 'bất biến afin': 'khái niệm'
+- 'bất biến về lượng': 'khái niệm'
+
+Relationships:
+- ('nguyễn chiến thắng', 'viết cho', 'tạp chí khoa học đhsp tp hcm')
+- ('điểm a', 'liên kết với', 'điểm b')
+- ('điểm b', 'liên kết với', 'điểm c')
+- ('điểm a', 'liên kết với', 'điểm o')
+- ('điểm c', 'liên kết với', 'điểm o')
+- ('điểm b', 'nằm trên', 'đoạn ac')
+- ('tam giác aoc', 'là', 'tam giác vuông cân')
+- ('định lý côsin', 'áp dụng cho', 'tam giác aoc')
+- ('định lý sin', 'áp dụng cho', 'tam giác ocm')
+- ('p', 'tính bởi', 'ab + bc')
+- ('p', 'có giá trị lớn nhất là', 'sqrt(2)')
+- ('x', 'tính bởi', 'sin 45^0 / sin 75^0')
+- ('toán cao cấp', 'liên quan đến', 'toán phổ thông')
+- ('sv', 'học', 'toán cao cấp')
+- ('sv', 'học', 'toán phổ thông')
+- ('gv', 'hướng dẫn', 'sv')
+- ('hàm số', 'là', 'khái niệm ánh xạ')
+- ('phép biến hình', 'là', 'khái niệm ánh xạ')
+- ('phép toán số học', 'là', 'khái niệm ánh xạ')
+- ('ma trận chuyển', 'liên quan đến', 'phép biến đổi đăng cự')
+- ('bất biến afin', 'là', 'bất biến của phép đăng cự')
+- ('bất biến về lượng', 'là', 'bất biến của phép đăng cự')
+---
+Entities:
+- 'tạp chí khoa học đhsp tp hcm': 'tạp chí'
+- 'toán cao cấp': 'kiến thức'
+- 'toán phổ thông': 'kiến thức'
+- 'hệ tọa độ afin': 'hệ tọa độ'
+- 'hình học afin': 'hình học'
+- 'hình học xạ ảnh': 'hình học'
+- 'sinh viên': 'người học'
+- 'định lí': 'khái niệm'
+- 'bài toán afin': 'bài toán'
+- 'bài toán xạ ảnh': 'bài toán'
+- 'định lí papus': 'định lí'
+- 'mặt phẳng xạ ảnh p^2': 'khái niệm'
+- 'đường thẳng a': 'đường thẳng'
+- 'đường thẳng b': 'đường thẳng'
+- 'điểm a_0': 'điểm'
+- 'điểm b_0': 'điểm'
+- 'điểm c_0': 'điểm'
+- 'điểm a_1': 'điểm'
+- 'điểm b_1': 'điểm'
+- 'điểm c_1': 'điểm'
+- 'điểm a_2': 'điểm'
+- 'điểm b_2': 'điểm'
+- 'điểm c_2': 'điểm'
+
+Relationships:
+- ('toán cao cấp', 'được vận dụng để giải', 'toán phổ thông')
+- ('hệ tọa độ afin', 'được sử dụng để giải', 'bài toán chứa bất biến afin')
+- ('hình học xạ ảnh', 'là cơ sở cho', 'sáng tạo bài toán phổ thông')
+- ('sinh viên', 'học', 'hình học xạ ảnh')
+- ('bài toán afin', 'dẫn đến', 'bài toán xạ ảnh')
+- ('bài toán xạ ảnh', 'dẫn đến', 'bài toán đối ngẫu')
+- ('bài toán đối ngẫu', 'dẫn đến', 'bài toán afin mới')
+- ('bài toán afin mới', 'liên kết với', 'bài toán xạ ảnh mới')
+- ('định lí papus', 'liên quan đến', 'mặt phẳng xạ ảnh p^2')
+- ('đường thẳng a', 'chứa', 'điểm a_0')
+- ('đường thẳng a', 'chứa', 'điểm b_0')
+- ('đường thẳng a', 'chứa', 'điểm c_0')
+- ('đường thẳng b', 'chứa', 'điểm a_1')
+- ('đường thẳng b', 'chứa', 'điểm b_1')
+- ('đường thẳng b', 'chứa', 'điểm c_1')
+- ('bài toán phẳng', 'chuyển thành', 'định lí papus trong p^2')
+---
+Entities:
+- 'tạp chí khoa học đhsp tp hcm': 'Tạp chí'
+- 'nguyễn chiến thắng': 'Tác giả'
+- 'o': 'Điểm'
+- 'a_0c_0': 'Đường thẳng'
+- 'a_1c_1': 'Đường thẳng'
+- 'w': 'Đường thẳng vô tận'
+- 'hình bình hành ob_2a_2b_1': 'Hình bình hành'
+- 'ob_2': 'Đường thẳng'
+- 'ob_1': 'Đường thẳng'
+- 'a_0': 'Điểm'
+- 'a_1': 'Điểm'
+- 'hình bình hành oa_0b_2a_1': 'Hình bình hành'
+- 'b_0a_1': 'Đường thẳng'
+- 'b_1a_0': 'Đường thẳng'
+- 'g': 'Điểm'
+- 'a_2': 'Điểm'
+- 'b_2': 'Điểm'
+- 'c_2': 'Điểm'
+- 'hình bình hành a_0c_0a_1c_1': 'Hình bình hành'
+- 'b_0': 'Điểm'
+- 'b_1': 'Điểm'
+- 'tam giác oa_1c_0': 'Tam giác'
+- 'oc_0': 'Đường thẳng'
+- 'oa_1': 'Đường thẳng'
+- 'c': 'Điểm'
+- 'a': 'Đường thẳng'
+- 'b': 'Đường thẳng'
+- 'c': 'Đường thẳng'
+- 'd': 'Điểm'
+- 'm': 'Đường thẳng'
+- 'n': 'Đường thẳng'
+- 'p': 'Đường thẳng'
+- 'd’': 'Điểm'
+- 'o': 'Điểm'
+- 'm=a ∩ n': 'Giao điểm'
+- 'n=b ∩ m': 'Giao điểm'
+- 'k=a ∩ p': 'Giao điểm'
+- 'l=c ∩ m': 'Giao điểm'
+- 'h=b ∩ p': 'Giao điểm'
+- 'i=c ∩ n': 'Giao điểm'
+
+Relationships:
+- ('o', 'là giao điểm của', 'a_0c_0 và a_1c_1')
+- ('hình bình hành ob_2a_2b_1', 'có', 'điểm a_0')
+- ('hình bình hành ob_2a_2b_1', 'có', 'điểm a_1')
+- ('b_0a_1', 'cắt', 'b_1a_0 tại g')
+- ('a_2', 'thẳng hàng với', 'b_2 và c_2')
+- ('hình bình hành a_0c_0a_1c_1', 'có', 'điểm b_0')
+- ('hình bình hành a_0c_0a_1c_1', 'có', 'điểm b_1')
+- ('b_0c_1', 'song song với', 'b_1c_0')
+- ('tam giác oa_1c_0', 'có', 'điểm a_0')
+- ('tam giác oa_1c_0', 'có', 'điểm b_0')
+- ('tam giác oa_1c_0', 'có', 'điểm c')
+- ('tam giác oa_1c_0', 'có', 'điểm b_1')
+- ('a_0b_1', 'song song với', 'a_1b_0')
+- ('a_0c_1', 'song song với', 'a_1c_0')
+- ('a', 'đi qua', 'điểm d')
+- ('b', 'đi qua', 'điểm d')
+- ('c', 'đi qua', 'điểm d')
+- ('m', 'đi qua', 'điểm d’')
+- ('n', 'đi qua', 'điểm d’')
+- ('p', 'đi qua', 'điểm d’')
+- ('m=a ∩ n', 'là giao điểm của', 'a và n')
+- ('n=b ∩ m', 'là giao điểm của', 'b và m')
+- ('k=a ∩ p', 'là giao điểm của', 'a và p')
+- ('l=c ∩ m', 'là giao điểm của', 'c và m')
+- ('h=b ∩ p', 'là giao điểm của', 'b và p')
+- ('i=c ∩ n', 'là giao điểm của', 'c và n')
+- ('m=a ∩ n', 'đồng quy tại', 'o')
+- ('k=a ∩ p', 'đồng quy tại', 'o')
+- ('h=b ∩ p', 'đồng quy tại', 'o')
+---
+Entities:
+- 'trọng tâm': 'điểm'
+- 'trực tâm': 'điểm'
+- 'tâm đường tròn ngoại tiếp': 'điểm'
+- 'tam giác ABC': 'hình học'
+- 'trung điểm BC': 'điểm'
+- 'đường tròn ngoại tiếp': 'hình học'
+- 'đường trung bình': 'đường'
+- 'tam giác BCD': 'hình học'
+- 'tứ giác AHCD': 'hình học'
+- 'hình bình hành': 'hình học'
+- 'tam giác AGH': 'hình học'
+- 'tam giác MGO': 'hình học'
+- 'góc AGH': 'góc'
+- 'góc MGO': 'góc'
+- 'góc GAH': 'góc'
+- 'góc GMO': 'góc'
+- 'tỉ số AG:GM': 'tỉ số'
+- 'tỉ số AH:OM': 'tỉ số'
+- 'trực tâm của tự diện': 'khái niệm'
+- 'hệ điểm': 'khái niệm'
+- 'bất biến afin': 'khái niệm'
+- 'bất biến Euclid': 'khái niệm'
+
+Relationships:
+- ('trọng tâm', 'là một phần của', 'tam giác ABC')
+- ('trực tâm', 'là một phần của', 'tam giác ABC')
+- ('tâm đường tròn ngoại tiếp', 'là một phần của', 'tam giác ABC')
+- ('trung điểm BC', 'là một phần của', 'tam giác ABC')
+- ('tam giác AGH', 'có góc', 'góc AGH')
+- ('tam giác MGO', 'có góc', 'góc MGO')
+- ('góc AGH', 'bằng', 'góc MGO')
+- ('góc GAH', 'bằng', 'góc GMO')
+- ('tỉ số AG:GM', 'là', '2:1')
+- ('tỉ số AH:OM', 'là', '2:1')
+- ('tứ giác AHCD', 'là', 'hình bình hành')
+- ('trực tâm của tự diện', 'liên quan đến', 'hệ điểm')
+- ('hệ điểm', 'là', 'bất biến afin')
+- ('bất biến afin', 'cũng là', 'bất biến Euclid')
+---
+Entities:
+- 'tạp chí khoa học đhsp tp hcm': 'Tạp chí'
+- 'nguyễn chiến thắng': 'Tác giả'
+- 'từ điển trục tâm': 'Khái niệm toán học'
+- 'trực tâm': 'Điểm'
+- 'trọng tâm': 'Điểm'
+- 'tâm mặt cầu ngoại tiếp': 'Điểm'
+- 'không gian euclide n-chiều': 'Không gian'
+- 'đơn hình n-chiều': 'Hình học'
+- 'siêu cầu ngoại tiếp': 'Khái niệm toán học'
+- 'tâm o': 'Điểm'
+- 'điểm h': 'Điểm'
+- 'điểm g': 'Điểm'
+- 'hệ n+1 điểm $a_0, a_1, a_2, \ldots, a_n$': 'Tập hợp điểm'
+- 'trí tuệ': 'Khái niệm'
+- 'quá trình nhận thức': 'Quá trình'
+- 'j.piaget': 'Nhà tâm lý học'
+- 'tạp chí giáo dục': 'Tạp chí'
+- 'g. polya': 'Tác giả'
+- 'đào văn trung': 'Tác giả'
+- 'bài toán': 'Bài toán'
+- 'sv': 'Sinh viên'
+- 'gv': 'Giáo viên'
+- 'kỹ năng': 'Kỹ năng'
+
+Relationships:
+- ('nguyễn chiến thắng', 'viết cho', 'tạp chí khoa học đhsp tp hcm')
+- ('trực tâm', 'nằm trong', 'từ điển trục tâm')
+- ('trọng tâm', 'nằm trong', 'từ điển trục tâm')
+- ('tâm mặt cầu ngoại tiếp', 'nằm trong', 'từ điển trục tâm')
+- ('trực tâm', 'thẳng hàng với', 'trọng tâm')
+- ('trực tâm', 'thẳng hàng với', 'tâm mặt cầu ngoại tiếp')
+- ('trọng tâm', 'thẳng hàng với', 'tâm mặt cầu ngoại tiếp')
+- ('đơn hình n-chiều', 'thuộc', 'không gian euclide n-chiều')
+- ('siêu cầu ngoại tiếp', 'có', 'tâm o')
+- ('điểm h', 'đồng quy tại', 'đơn hình n-chiều')
+- ('điểm h', 'thẳng hàng với', 'điểm g')
+- ('điểm h', 'thẳng hàng với', 'tâm o')
+- ('điểm g', 'thẳng hàng với', 'tâm o')
+- ('hệ n+1 điểm $a_0, a_1, a_2, \ldots, a_n$', 'có', 'trọng tâm là điểm g')
+- ('quá trình nhận thức', 'theo', 'j.piaget')
+- ('ngô thúc lanh', 'là chủ biên của', 'từ điển toán học thông dụng')
+- ('tạp chí giáo dục', 'được viết bởi', 'nguyễn phú lộc')
+- ('g. polya', 'viết', 'giải bài toán như thế nào')
+- ('đào văn trung', 'viết', 'làm thế nào để học tốt toán phổ thông')
+- ('bài toán', 'được giải bởi', 'sv')
+- ('kỹ năng', 'được nâng cao bởi', 'gv')
+---
