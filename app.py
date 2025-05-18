@@ -18,7 +18,7 @@ import openai
 from openai import OpenAI
 import os
 
-os.environ["GEMINI_API_KEY"] = "AIzaSyDeqhwridj7KC0raINvs04-TvjIGla5d10"
+os.environ["GEMINI_API_KEY"] = ""
 gemini_api_key = os.getenv("GEMINI_API_KEY")
 
 
